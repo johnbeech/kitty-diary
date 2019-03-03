@@ -32,3 +32,16 @@ Downloads all and the latest feeding diary data from google sheets.
 
 - `node run download-feeding-diary`
 - Creates `data/feeding-diary.json`
+
+## Building
+
+After downloading data, you can build the site as static HTML.
+
+- **This has not been implemented yet**
+
+## Deployment
+
+After building, and assuming you have set up a secret password file as [per the instructions](./deploy/README.md), then simply run:
+- `node deploy live-release`
+
+And all the files in the `build` directory will be uploaded to the server.
