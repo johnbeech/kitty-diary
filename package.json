@@ -1,0 +1,24 @@
+{
+  "name": "kitty-diary",
+  "version": "1.0.0",
+  "description": "A website diary for our two wonderful cats, Ezio and Icarus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnbeech/kitty-diary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/johnbeech/kitty-diary/issues"
+  },
+  "homepage": "https://github.com/johnbeech/kitty-diary#readme",
+  "devDependencies": {
+    "google-spreadsheet-to-json": "^1.0.0",
+    "promise-path": "^1.4.0"
+  }
+}
