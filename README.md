@@ -9,3 +9,26 @@ A website diary for our two wonderful cats, Ezio and Icarus.
 - Display cat photos from google photos
 - Display feeding information on a weekly basis
 - Display weight information on a monthly basis
+
+## Development
+
+### Setup
+
+This project requires `node >= 10 LTS`.
+
+1. Use `git clone` to check out this repository to your local machine.
+
+* From the project folder, run `npm install` to install dependencies.
+
+* From the project folder, run `node run` to see a list of commands.
+
+## Updating Data Sets
+
+Use `node run` to see a list of available commands.
+
+### Download Feeding Diary
+
+Downloads all and the latest feeding diary data from google sheets.
+
+- `node run download-feeding-diary`
+- Creates `data/feeding-diary.json`
