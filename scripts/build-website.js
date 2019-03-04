@@ -1,4 +1,5 @@
-const { read, write, position, find } = require('promise-path')
+const path = require('path')
+const { read, write, position, make, find } = require('promise-path')
 const handlebars = require('handlebars')
 
 const datapath = position(__dirname, '../data')
@@ -18,20 +19,23 @@ async function processTemplate(filePath, data) {
 
   const templatePathBase = templatepath('./')
   const fragmentPath = filePath.substring(templatePathBase.length)
+  const fragmentBasePath = path.dirname(fragmentPath)
   const outFilePath = buildpath(fragmentPath)
 
   report('Writing template:', fragmentPath, outputString.length, 'bytes')
+  await make(fragmentBasePath)
   return write(outFilePath, outputString, 'utf8')
 }
 
-async function findFiles() {
-  return find(templatepath('**/*'))
+async function findTemplateFiles() {
+  const files = await find(templatepath('**/*.*'))
+  return files.filter(n => /(css|html|js)/.test(n))
 }
 
 async function start () {
-  const files = await findFiles()
+  const templateFiles = await findTemplateFiles()
   const data = {}
-  return processTemplates(files, data)
+  return processTemplates(templateFiles, data)
 }
 
 module.exports = start
