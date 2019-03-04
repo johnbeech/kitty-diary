@@ -27,6 +27,9 @@ const defaultConfig = {
 const modes = {
   'live-release': () => deploy({
     include: ['**/*']
+  }),
+  'live-html': () => deploy({
+    include: ['**/*.html']
   })
 }
 
