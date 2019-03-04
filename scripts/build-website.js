@@ -1,5 +1,5 @@
 const path = require('path')
-const { read, write, position, make, find } = require('promise-path')
+const { read, write, clean, position, find } = require('promise-path')
 const handlebars = require('handlebars')
 
 const datapath = position(__dirname, '../data')
@@ -23,7 +23,6 @@ async function processTemplate(filePath, data) {
   const outFilePath = buildpath(fragmentPath)
 
   report('Writing template:', fragmentPath, outputString.length, 'bytes')
-  await make(fragmentBasePath)
   return write(outFilePath, outputString, 'utf8')
 }
 
@@ -40,7 +39,6 @@ async function copyStaticFile(filePath) {
   const outFilePath = buildpath(fragmentPath)
 
   report('Copying file:', fragmentPath, staticFile.length, 'bytes')
-  await make(fragmentBasePath)
   return write(outFilePath, staticFile)
 }
 
@@ -58,6 +56,7 @@ async function start () {
   const templateFiles = await findTemplateFiles()
   const staticFiles = await findStaticFiles()
   const data = {}
+  await clean(buildpath(''))
   await processTemplates(templateFiles, data)
   await copyStaticFiles(staticFiles)
   return true
