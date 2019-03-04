@@ -30,6 +30,9 @@ const modes = {
   }),
   'live-html': () => deploy({
     include: ['**/*.html']
+  }),
+  'live-text': () => deploy({
+    include: ['**/*.html', '**/*.css', '/**/*.js']
   })
 }
 
