@@ -1,3 +1,16 @@
 html, body {
   font-family: sans-serif;
 }
+
+.main {
+  text-align: center;
+}
+
+.kitty.image {
+  display: inline-block;
+  width: 80%;
+  padding-bottom: 100%;
+  max-width: 400px;
+  background: url('../images/icarus-kitty.png') no-repeat;
+  background-size: contain;
+}
