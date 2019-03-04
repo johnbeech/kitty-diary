@@ -21,5 +21,8 @@
     "ftp-deploy": "^2.3.1",
     "google-spreadsheet-to-json": "^1.0.0",
     "promise-path": "^1.4.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.1.0"
   }
 }
