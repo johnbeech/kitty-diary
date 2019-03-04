@@ -27,15 +27,40 @@ async function processTemplate(filePath, data) {
   return write(outFilePath, outputString, 'utf8')
 }
 
+async function copyStaticFiles(files) {
+  const staticFileWork = files.map(copyStaticFile)
+  return Promise.all(staticFileWork)
+}
+
+async function copyStaticFile(filePath) {
+  const staticFile = await read(filePath)
+  const fileBasePath = templatepath('./')
+  const fragmentPath = filePath.substring(fileBasePath.length)
+  const fragmentBasePath = path.dirname(fragmentPath)
+  const outFilePath = buildpath(fragmentPath)
+
+  report('Copying file:', fragmentPath, staticFile.length, 'bytes')
+  await make(fragmentBasePath)
+  return write(outFilePath, staticFile)
+}
+
 async function findTemplateFiles() {
   const files = await find(templatepath('**/*.*'))
   return files.filter(n => /(css|html|js)/.test(n))
 }
 
+async function findStaticFiles() {
+  const files = await find(templatepath('**/*.*'))
+  return files.filter(n => !/(css|html|js)/.test(n))
+}
+
 async function start () {
   const templateFiles = await findTemplateFiles()
+  const staticFiles = await findStaticFiles()
   const data = {}
-  return processTemplates(templateFiles, data)
+  await processTemplates(templateFiles, data)
+  await copyStaticFiles(staticFiles)
+  return true
 }
 
 module.exports = start
