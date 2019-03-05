@@ -29,9 +29,16 @@
     <div class="feed">
     {{#each this}}
       <div class="entry">
-      {{#each this}}
-        <div class="value {{@key}}">{{this}}</div>
-      {{/each}}
+      <div class="value dow">{{dow}}</div>
+      <div class="value date">{{date}}</div>
+      <div class="value day">{{day}}</div>
+      <div class="value wetFoodMorning {{wetFoodMorning}}">{{wetFoodMorning}}</div>
+      <div class="value dryFoodMorning {{dryFoodMorning}}">{{dryFoodMorning}}</div>
+      <div class="value wetFoodEvening {{wetFoodEvening}}">{{wetFoodEvening}}</div>
+      <div class="value dryFoodEvening {{dryFoodEvening}}">{{dryFoodEvening}}</div>
+      <div class="value dryTotalGrams">{{dryTotalGrams}}</div>
+      <div class="value wetTotalGrams">{{wetTotalGrams}}</div>
+      <div class="value notes">{{#each notes}}<p>{{this}}</p>{{/each}}</div>
       </div>
     {{/each}}
     </div>

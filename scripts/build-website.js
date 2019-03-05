@@ -60,7 +60,15 @@ async function readJson(file) {
 async function start () {
   const templateFiles = await findTemplateFiles()
   const staticFiles = await findStaticFiles()
-  const feed = (await readJson('feeding-diary.json')).reverse().filter(n => n.wetFoodMorning)
+
+  const feed = (await readJson('feeding-diary.json'))
+    .reverse()
+    .filter(n => n.wetFoodMorning)
+
+  feed.forEach(n => {
+    n.notes = (n.notes || '').split('\n')
+  })
+
   await clean(buildpath(''))
   await processTemplates(templateFiles, feed)
   await copyStaticFiles(staticFiles)
