@@ -4,7 +4,13 @@
   "description": "A website diary for our two wonderful cats, Ezio and Icarus.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "nodemonConfig": {
+    "ignore": ["build/*"],
+    "delay": "250",
+    "ext": "js,json,html,css"
   },
   "repository": {
     "type": "git",
@@ -19,11 +25,12 @@
   "homepage": "https://github.com/johnbeech/kitty-diary#readme",
   "devDependencies": {
     "cors": "^2.8.5",
+    "express": "^4.16.4",
     "ftp-deploy": "^2.3.1",
     "google-spreadsheet-to-json": "^1.0.0",
-    "promise-path": "^1.4.0",
-    "express": "^4.16.4",
-    "handlebars": "^4.1.0"
+    "handlebars": "^4.1.0",
+    "nodemon": "^1.18.10",
+    "promise-path": "^1.4.0"
   },
   "dependencies": {}
 }
