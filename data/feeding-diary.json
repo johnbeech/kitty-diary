@@ -431,7 +431,7 @@
     "dow": "Sunday",
     "date": 43527,
     "day": 44,
-    "wet": "Coley",
+    "wet": "Duck",
     "dry": "-",
     "dry(grams)": 0,
     "wet(grams)": 200,
@@ -440,16 +440,103 @@
   {
     "dow": "Monday",
     "date": 43528,
-    "day": 45
+    "day": 45,
+    "wet": "White Fish",
+    "dry": "-",
+    "dry(grams)": 0,
+    "wet(grams)": 200,
+    "notes": "Fed in the kitchen; Icarus after initially leaving Ezio to eat, walked over, growled, and started eating from Ezio's bowl. I picked Icarus up and moved him away, keeping him held in position temporarily."
   },
   {
     "dow": "Tuesday",
     "date": 43529,
-    "day": 46
+    "day": 46,
+    "wet": "Poultry",
+    "notes": "Finished the large meat box. Both cats fed ok.  Ezio still slower to eat then Icarus but only by a few minutes. I picked Icarus up before feeding, he was somewhat timid towards me, but didn't seem to mind when I scooped him up and gave him a cuddle. Ezio meowed at me when I went to the far side of the table instead of opening the cupboard to feed them."
   },
   {
     "dow": "Wednesday",
     "date": 43530,
     "day": 47
+  },
+  {
+    "dow": "Thursday",
+    "date": 43531,
+    "day": 48
+  },
+  {
+    "dow": "Friday",
+    "date": 43532,
+    "day": 49
+  },
+  {
+    "dow": "Saturday",
+    "date": 43533,
+    "day": 50
+  },
+  {
+    "dow": "Sunday",
+    "date": 43534,
+    "day": 51
+  },
+  {
+    "dow": "Monday",
+    "date": 43535,
+    "day": 52
+  },
+  {
+    "dow": "Tuesday",
+    "date": 43536,
+    "day": 53
+  },
+  {
+    "dow": "Wednesday",
+    "date": 43537,
+    "day": 54
+  },
+  {
+    "dow": "Thursday",
+    "date": 43538,
+    "day": 55
+  },
+  {
+    "dow": "Friday",
+    "date": 43539,
+    "day": 56
+  },
+  {
+    "dow": "Saturday",
+    "date": 43540,
+    "day": 57
+  },
+  {
+    "dow": "Sunday",
+    "date": 43541,
+    "day": 58
+  },
+  {
+    "dow": "Monday",
+    "date": 43542,
+    "day": 59
+  },
+  {
+    "dow": "Tuesday",
+    "date": 43543,
+    "day": 60
+  },
+  {
+    "dow": "Wednesday",
+    "date": 43544,
+    "day": 61
+  },
+  {
+    "dow": "Thursday",
+    "date": 43545,
+    "day": 62
+  },
+  {
+    "dow": "Friday",
+    "date": 43546,
+    "day": 63
   }
 ]
