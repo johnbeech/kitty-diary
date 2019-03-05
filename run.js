@@ -28,7 +28,8 @@ async function start () {
 
   scripts.all = async () => {
     return processScripts([
-      'download-all'
+      'download-all',
+      'build-website'
     ], scripts)
   }
 

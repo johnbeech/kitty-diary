@@ -53,7 +53,8 @@ html, body {
   display: block;
   font-weight: bold;
   margin-bottom: 6px;
-  font-size: 120%;
+  padding: 12px;
+  font-size: 150%;
 }
 
 .notes.value {
@@ -80,8 +81,9 @@ html, body {
   text-transform: capitalize;
   padding: 6px;
   border-radius: 8px;
-  background: black;
+  background: #333;
   color: white;
+  border-bottom: 2px solid black;
 }
 
 .wetFoodMorning.value::before {
@@ -95,6 +97,7 @@ html, body {
   border-radius: 8px;
   background: rgba(0,0,0,0.6);
   color: white;
+  border-bottom: 2px solid black;
 }
 
 .dryFoodMorning.value::before {
@@ -105,8 +108,9 @@ html, body {
 .dryFoodMorning.value {
   padding: 6px;
   border-radius: 8px;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.1);
   color: white;
+  border-bottom: 2px solid black;
 }
 
 .wetFoodEvening.value::before {
@@ -120,6 +124,7 @@ html, body {
   border-radius: 8px;
   background: rgba(0,0,0,0.6);
   color: white;
+  border-bottom: 2px solid black;
 }
 
 .dryFoodEvening.value::before {
@@ -130,15 +135,17 @@ html, body {
 .dryFoodEvening.value {
   padding: 6px;
   border-radius: 8px;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.1);
   color: white;
+  border-bottom: 2px solid black;
 }
 
 .wetTotalGrams.value {
   padding: 6px;
   border-radius: 8px;
-  background: rgba(0,0,0,0.6);
-  color: white;
+  background: rgba(0,0,0,0.1);
+  color: black;
+  border-bottom: 2px solid black;
 }
 
 .wetTotalGrams.value::after {
@@ -151,9 +158,10 @@ html, body {
 .dryTotalGrams.value {
   padding: 6px;
   border-radius: 8px;
-  background: rgba(0,0,0,0.6);
-  color: white;
+  background: rgba(0,0,0,0.1);
+  color: black;
   margin-bottom: 6px;
+  border-bottom: 2px solid black;
 }
 
 .dryTotalGrams.value::after {
@@ -161,4 +169,46 @@ html, body {
   font-weight: bold;
   font-size: 80%;
   margin-left: 3px;
+}
+
+/* Food Colour Chart */
+.value.Chicken {
+  background: #F9CB9C;
+  color: black;
+}
+.value.Duck {
+  background: #B4A7D6;
+  color: black;
+}
+.value.Turkey {
+  background: #C59F7B;
+  color: black;
+}
+.value.Poultry {
+  background: #FFE599;
+  color: black;
+}
+.value.Beef {
+  background: #783F04;
+  color: white;
+}
+.value.Tuna {
+  background: #A4C2F4;
+  color: black;
+}
+.value.White.Fish {
+  background: #D0E0E3;
+  color: black;
+}
+.value.Salmon {
+  background: #F4CCCC;
+  color: black;
+}
+.value.Coley {
+  background: #CFE2F3;
+  color: black;
+}
+.value.Lamb {
+  background: #660000;
+  color: white;
 }
