@@ -30,8 +30,8 @@
     {{#each this}}
       <div class="entry">
       {{#each this}}
-        <div class="key">{{@key}}</div>
-        <div class="value">{{this}}</div>
+        <div class="label {{@key}} {{this}}">{{@key}}</div>
+        <div class="value {{@key}} {{this}}">{{this}}</div>
       {{/each}}
       </div>
     {{/each}}
