@@ -52,12 +52,17 @@ async function findStaticFiles() {
   return files.filter(n => !/(css|html|js)/.test(n))
 }
 
+async function readJson(file) {
+  const fileContents = await read(datapath(file), 'utf8')
+  return JSON.parse(fileContents)
+}
+
 async function start () {
   const templateFiles = await findTemplateFiles()
   const staticFiles = await findStaticFiles()
-  const data = {}
+  const feed = (await readJson('feeding-diary.json')).reverse()
   await clean(buildpath(''))
-  await processTemplates(templateFiles, data)
+  await processTemplates(templateFiles, feed)
   await copyStaticFiles(staticFiles)
   return true
 }

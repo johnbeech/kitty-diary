@@ -26,6 +26,16 @@
     <h1>Ezio and Icarus' Kitty Diary</h1>
     <p>A website diary for our two wonderful cats, Ezio and Icarus.</p>
     <div class="kitty image"></div>
+    <div class="feed">
+    {{#each this}}
+      <div class="entry">
+      {{#each this}}
+        <div class="key">{{@key}}</div>
+        <div class="value">{{this}}</div>
+      {{/each}}
+      </div>
+    {{/each}}
+    </div>
   </div>
 </body>
 </html>
