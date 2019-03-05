@@ -16,12 +16,20 @@ html, body {
   display: inline-block;
   min-width: 200px;
   min-height: 200px;
-  width: 60%;
+  width: 48%;
   padding-bottom: 20%;
   max-width: 400px;
-  background: url(../images/icarus-kitty.png) no-repeat;
   background-size: contain;
   background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.ezio {
+  background-image: url(../images/ezio-kitty.png);
+}
+
+.icarus {
+  background-image: url(../images/icarus-kitty.png);
 }
 
 .feed {
