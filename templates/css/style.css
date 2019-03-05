@@ -33,6 +33,7 @@ html, body {
   background: #CC9966;
   padding: 6px;
   margin-bottom: 12px;
+  position: relative;
 }
 
 .entry > .label {
@@ -41,30 +42,123 @@ html, body {
 
 .entry > .value {
   display: inline-block;
+  margin-bottom: 6px;
 }
 
-.label.day {
-  display: inline-block;
-}
-.value.day {
-  display: inline-block;
-}
-
-.value.date {
+.date.value {
   display: none; /* Need to parse gsheets number as date */
 }
 
-.value.dow {
+.dow.value {
   display: block;
   font-weight: bold;
   margin-bottom: 6px;
   font-size: 120%;
 }
 
-.value.notes {
+.notes.value {
   display: block;
   border-radius: 6px;
-  padding: 6px;
+  padding: 6px 12px;
+  line-height: 1.4em;
   background: rgba(255,255,255,0.6);
   font-style: italic;
+}
+
+.day.value::before {
+  content: 'DAY';
+  font-weight: bold;
+  font-size: 80%;
+  margin-right: 5px;
+}
+
+.day.value {
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  text-transform: capitalize;
+  padding: 6px;
+  border-radius: 8px;
+  background: black;
+  color: white;
+}
+
+.wetFoodMorning.value::before {
+  content: 'AM';
+  font-weight: bold;
+  font-size: 80%;
+  margin-right: 5px;
+}
+.wetFoodMorning.value {
+  padding: 6px;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+}
+
+.dryFoodMorning.value::before {
+  font-weight: bold;
+  font-size: 80%;
+  margin-right: 5px;
+}
+.dryFoodMorning.value {
+  padding: 6px;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+}
+
+.wetFoodEvening.value::before {
+  content: 'PM';
+  font-weight: bold;
+  font-size: 80%;
+  margin-right: 5px;
+}
+.wetFoodEvening.value {
+  padding: 6px;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+}
+
+.dryFoodEvening.value::before {
+  font-weight: bold;
+  font-size: 80%;
+  margin-right: 5px;
+}
+.dryFoodEvening.value {
+  padding: 6px;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+}
+
+.wetTotalGrams.value {
+  padding: 6px;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+}
+
+.wetTotalGrams.value::after {
+  content: 'g wet';
+  font-weight: bold;
+  font-size: 80%;
+  margin-left: 3px;
+}
+
+.dryTotalGrams.value {
+  padding: 6px;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  margin-bottom: 6px;
+}
+
+.dryTotalGrams.value::after {
+  content: 'g dry';
+  font-weight: bold;
+  font-size: 80%;
+  margin-left: 3px;
 }

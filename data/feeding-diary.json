@@ -7,8 +7,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Duck",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": "?",
-    "wetTotal(grams)": 100,
+    "dryTotalGrams": "?",
+    "wetTotalGrams": 100,
     "notes": "Fed in the morning by the shelter before we adopted them."
   },
   {
@@ -19,8 +19,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Turkey",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Separated cats; Ezio into front room, Icarus into kitchen."
   },
   {
@@ -31,8 +31,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Tuna",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Icarus aggressively eats down his food; much harder to get Ezio to stay and eat his. Had to tap the bowl to encourage him back. Took over 30 mins to eat a decent portion. Icarus would then be let back in and wolf down the remainder."
   },
   {
@@ -43,8 +43,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Poultry",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Morning; put bowls in different rooms - Icarus under the pantry shelving, Ezio under the cat tower. Kitchen door closed; leaving them for 20 minutes and then removing Ezio's food for weighing. May attempt to feed more to him at lunch time."
   },
   {
@@ -55,8 +55,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "White Fish",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Still separating cats for feeding; Ezio is eating much faster now. Think he may have been unwell after eating plant leaves and throwing them back up."
   },
   {
@@ -67,8 +67,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Tuna",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Visit from Alan and Sophie; initially timid but reacted well once we were settled in."
   },
   {
@@ -79,8 +79,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Salmon",
     "dryFoodEvening": "Shortbread",
-    "dryTotal(grams)": 55,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 55,
+    "wetTotalGrams": 200,
     "notes": "Icarus is still eating very fast, but Ezio isn't too far behind, about a minute between each other. Found and ate shortbread biscuits while we were out the house."
   },
   {
@@ -91,8 +91,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Chicken",
     "dryFoodEvening": "Cat treats",
-    "dryTotal(grams)": 5,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 5,
+    "wetTotalGrams": 200,
     "notes": "Found some cat vomit by the side of the sofa with some black hairs. Appointment to the vets at 11:40. Visit to the vets went ok. Had flea treatment applied to the back of their necks. The vet said they were both healthy cats. Found a ripped bag of cat treats on the floor, must have been knocked off the table while we weren't looking."
   },
   {
@@ -103,8 +103,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Beef",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Thing were suspiciously perfect this morning. Hannah is sure they got up to something but we havent found any evidence yet. Slight staining on one of the chairs, used fabric spray to freshen."
   },
   {
@@ -115,8 +115,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Salmon",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Ezio meowed at the door when he was done. Had to choose the door after Icarus ran through, but I chased him away."
   },
   {
@@ -127,8 +127,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Turkey",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Watching them on the cameras; they spent most the day on the sofa sleeping. The weather has been cold, wet, icy, and generally dreary. No problems with feeding today, still separating them in different rooms. Icarus finishes well ahead of Ezio."
   },
   {
@@ -139,8 +139,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Lamb",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Got into an argument about the correct feeding order; I had the oven on to do pizza while Hannah was trying to sort out the feeing bowls. Icarus ended getting out of the kitchen and had to be pulled away from Ezio."
   },
   {
@@ -151,8 +151,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "White Fish",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "While I was clearing out the litter Icarus finished and went through and sat across from Ezio, but didn't disturb him feeding as far as I can tell. I watched them while Ezio finished his food, and then let Icarus lick the bowl clean."
   },
   {
@@ -163,8 +163,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Poultry",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Sponges. Sponges everywhere. Icarus still eating about twice as fast as Ezio. No problems in the evening; got them almost sleeping on top of us while we were lying on the sofa."
   },
   {
@@ -175,8 +175,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Lamb",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Litter tray changed; one bag not quite enough for a full week, switched Tuesday evening and Saturday morning."
   },
   {
@@ -187,8 +187,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "White Fish",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Left them alone all day. Eat all their food ok. Tried out a new toy. They seem content."
   },
   {
@@ -199,8 +199,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Lamb",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Kitties are being kitties. They ate all their food in good time. Still pooping."
   },
   {
@@ -211,8 +211,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Salmon",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "The kitties are adorable and we love them to pieces. Whatever that means. Ezio and Icarus have been quite inquisitive this evening."
   },
   {
@@ -223,8 +223,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Beef",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Kitties! Late home, put snacks out around the living room for them to find."
   },
   {
@@ -235,8 +235,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "White Fish",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Kitties! Icarus has been seen clawing up the plastic covers on the cat tower."
   },
   {
@@ -247,8 +247,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Lamb",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Had visitors over to play board games. The cats were really good, and let themselves be petted."
   },
   {
@@ -259,8 +259,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Coley",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200
   },
   {
     "dow": "Sunday",
@@ -270,8 +270,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Poultry",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Overnight the cats knocked over and stabbed a used cooking oil bottle. At feeding time in the morning, Ezio was much slower eating his food, and we had to sit with him several times to help him finish eating. In the evening Ezio seemed to finish his food in good time while we watched from across the room."
   },
   {
@@ -282,8 +282,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Chicken",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Ezio meowed at me when I came down, and followed me into the kitchen, meowing at my face from the window sill."
   },
   {
@@ -294,8 +294,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Chicken",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Raw sausage scare - Icarus jumped up and nabbed a raw sausage, and Hannah had to fight Icarus in the corner to get him to drop it, and recover the sausage using a plastic box."
   },
   {
@@ -306,8 +306,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Chicken",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "No problems with feeding / eating this morning. Ezio let Hannah clean the sleep out of his eyes this morning, like the good boy he is <3."
   },
   {
@@ -318,8 +318,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Salmon",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 15,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 15,
+    "wetTotalGrams": 200,
     "notes": "Eating ok, but excitable. Let both cats come upstairs and sniff around the bathroom and bedroom. They eventually made their way up onto the bed and the windowsill in the bedroom. After that they were still following us around quite closely, and we ended up feeding them both 15g of dry food."
   },
   {
@@ -330,8 +330,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Turkey",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Dead sponge this morning, excitable cats. Cleaned some sleep out of Ezio's right eye."
   },
   {
@@ -342,8 +342,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Tuna",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200
   },
   {
     "dow": "Sunday",
@@ -353,8 +353,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Poultry",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 5,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 5,
+    "wetTotalGrams": 200,
     "notes": "Dear diary. We tried to walk Icarus and Ezio outside on a leash. Very sadly, when it was Ezio's turn, he escaped his leash and jumped a fence. Hannah tried to hold him from escaping, but he jumped into the next door neighbour's garden. We briefly saw him 5 minutes later in the garden, but he ran when I rattled some treats next to the fence. Since then, we've walked around the neighbourhood, climbed a few fences, and explored the back recesses of the space behind gardens in our area. Unfortunuately, we have not found Ezio yet. We sat outside with the litter tray, a food bowl, and Ezio's favourite blanket. After the sun set, because it was very cold (12oC), we set up our motion detection cameras with the bowl and are hoping Ezio comes home safely for foods, and nuzzles, and cuddles, and head scritches... *malp* 18:50, motion on back camera, partial head. Went out and tapped food bowl like at feeding time, but whatever cat it was, ran to the end of the garden, waited for a bit, and eventually fled over the compost heap. 19:00, Hannah spotted a cat under a car two corners away. The cat was rolling around, it saw me as I approached and rolled off back towards the gardens. We got more motion on the security cameras at 7:44, Ezio can be clearly seen sniffing the food sponge and food bowl that we left outside. However, when we came out to check on him I think we scared him away. We could clearly hear him meowing, and so followed him to the fence, and into the neighbour's garden, only for him to back away from us. Knowing that he wasn't far away, I sat outside wrapped in a blanket from 7:57 until 8:16, I was getting cold, so moved to go back inside when I saw Ezio coming over the fence. I stepped inside the kitchen and beckoned him inside, briefly moving out to pick up the food bowl and place it inside the kitchen. Once Ezio was back inside, we gave him some time to eat his food, and then gave him an extra 5g of dry cat food. We settled down to hug and nuzzle the cats, Ezio seemed a bit more distant then normal, but was happy to climb on our laps and be petted."
   },
   {
@@ -365,8 +365,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Poultry",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 5,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 5,
+    "wetTotalGrams": 200,
     "notes": "This morning, after Hannah got downstairs, the rascals had pulled down and opened bag of dried fish which they proceeded to defend. Icarus took a swipe and scratched my thumb. We resealed the fish and stored it away in a cupboard. Later they pulled down the plastic box the fish was previous stored in. Concerned about them getting up onto the pantry shelves and finding other food. Otherwise both cats seem happy this morning and ate their food ok."
   },
   {
@@ -377,8 +377,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Coley",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "More sponge destruction, the cats are getting quite skilled at sculpting wet sponges by tearing small parts off across the floor."
   },
   {
@@ -389,8 +389,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Turkey",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "We were late home after playing Werewolf; the cats were very excitable, I guess we woke them up coming home late. After letting them roam around upstairs for a while we shut them back downstairs and went to bed, but Ezio was meowing and scratching at the living room door so loudly that Hannah had to go down and sprinkle snacks on the floor to distract them. "
   },
   {
@@ -401,8 +401,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Salmon",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Cats seemed happy, eating their food no problems, stayed out of our way while eating our own food. "
   },
   {
@@ -413,8 +413,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Tuna",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Both the cats decided to play Tanto Curoe Winter Romance, badly, they knocked several cards off the table while we were at the cinema."
   },
   {
@@ -425,8 +425,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Whitefish",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "This morning the cats were let upstairs and explored around and got snuggled in bed. They ate their food ok."
   },
   {
@@ -437,8 +437,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Chicken",
     "dryFoodEvening": "Cat treats",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Hannah fed the cats in tandem this morning, in the same room, and stayed with them. Icarus didn't go for Ezio's food bowl afterwards. Attempting the same again at dinner time, results to follow shortly. Played around with them in the evening, using the laser to attract their attention, and then providing snacks for them to nom on."
   },
   {
@@ -449,8 +449,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "White Fish",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Tried feeding Ezio and Icarus together again in the kitchen, but Icarus moved in on Ezio's food so I had to put him into the living room while Ezio finished eating. Hannah suceeded in feeding them both in the evening together without incident. Later we decided to give them a mini wash after they came back from kitchen sort of wet. Hannah filled the sink with warm water and washed them from the side, we then wrapped them up in a towel and dried them off."
   },
   {
@@ -461,8 +461,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Coley",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Hannah thinks the cats are cute and she loves them."
   },
   {
@@ -473,8 +473,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Salmon",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Hannah thinks the cats are cute and she loves them."
   },
   {
@@ -485,8 +485,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "White Fish",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Icarus got into the recylcling bin. Salmon coated foil was ripped apart across the floor. Plastic and things spread around the living room and kitchen. Hannah fed them both in the kitchen, but had to stop Icarus from going to Ezio's food bowl. Hannah is giving Ivarus lots of snuggles while waiting for Ezio to finish eating."
   },
   {
@@ -497,8 +497,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Chicken",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Played around with the kitties using the laser. Both ate their food ok. Let them run around upstairs for a bit, Exio meowed for attention, and jumped up on to my lap while at the desk for attention. I got Icarus up to do the same about 10 minutes later, and he slobbered over my computer mouse."
   },
   {
@@ -509,8 +509,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Turkey",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Hannah back home after her overnight trip to Wales. Been at home almost all day, had the kitchen window open which Ezio likes sniffing out of. Hannah thinks the cats are cute and she loves them. I do too. In the evening I used the laser to run the cats up and down the stairs, and then fed them some biscuit snacks afterwards."
   },
   {
@@ -521,8 +521,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "Duck",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Hannah thinks the cats are adorable and she loves them."
   },
   {
@@ -533,8 +533,8 @@
     "dryFoodMorning": "-",
     "wetFoodEvening": "White Fish",
     "dryFoodEvening": "-",
-    "dryTotal(grams)": 0,
-    "wetTotal(grams)": 200,
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
     "notes": "Fed in the kitchen; Icarus after initially leaving Ezio to eat, walked over, growled, and started eating from Ezio's bowl. I picked Icarus up and moved him away, keeping him held in position temporarily."
   },
   {
