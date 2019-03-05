@@ -6,6 +6,10 @@ html, body {
   text-align: center;
 }
 
+.footer {
+  text-align: center;
+}
+
 .kitty.image {
   display: inline-block;
   min-width: 200px;
