@@ -2,6 +2,8 @@
 
 A website diary for our two wonderful cats, Ezio and Icarus.
 
+Hosted at: https://kitties.mkv25.net/
+
 ## Aspirations
 
 - Display a feed of cat related events
@@ -22,6 +24,8 @@ This project requires `node >= 10 LTS`.
 
 * From the project folder, run `node run` to see a list of commands.
 
+* In a separate tab, run `node server` to start a local web server.
+
 ## Updating Data Sets
 
 Use `node run` to see a list of available commands.
@@ -33,11 +37,12 @@ Downloads all and the latest feeding diary data from google sheets.
 - `node run download-feeding-diary`
 - Creates `data/feeding-diary.json`
 
-## Building
+## Build Website
 
 After downloading data, you can build the site as static HTML.
 
-- **This has not been implemented yet**
+- `node run build-website`
+- Creates files in the temporary directory `build/` based on templates and data
 
 ## Deployment
 
