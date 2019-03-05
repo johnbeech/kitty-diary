@@ -8,9 +8,12 @@ html, body {
 
 .kitty.image {
   display: inline-block;
-  width: 80%;
-  padding-bottom: 100%;
+  min-width: 200px;
+  min-height: 200px;
+  width: 60%;
+  padding-bottom: 20%;
   max-width: 400px;
-  background: url('../images/icarus-kitty.png') no-repeat;
+  background: url(../images/icarus-kitty.png) no-repeat;
   background-size: contain;
+  background-position: center center;
 }
