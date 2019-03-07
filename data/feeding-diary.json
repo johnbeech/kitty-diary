@@ -466,12 +466,18 @@
   {
     "dow": "Wednesday",
     "date": 43530,
-    "day": 47
+    "day": 47,
+    "wetFoodMorning": "Coley",
+    "wetFoodEvening": "Chicken",
+    "wetTotalGrams": 100,
+    "notes": "Ezio threw up his dried food last night, and appeared to have ate it again by this morning. I was too tired to clean it up at the time. I've fed them the last pack of Coley again this morning. No problems with Icarus. Ezio has been licking away at the jelly but not really touching the chunks. While I was washing the sink, he was being much more forwad then usual, walking back and forth along the edge of the sink trying to get my attention."
   },
   {
     "dow": "Thursday",
     "date": 43531,
-    "day": 48
+    "day": 48,
+    "wetFoodMorning": "Poultry",
+    "notes": "No problems with feeding this morning. Fed them in separate rooms with the kitchen door closed, then came down to check on Ezio and waited until he finished.\n\nLet the cats upstairs to the landing while I showered, lots of meowing from Ezio while I dried.\n\nI think he wanted to get into the rooms. Hannah cleaned out Ezio's eye this morning, Icarus's eyes seemed ok."
   },
   {
     "dow": "Friday",
