@@ -37,7 +37,16 @@ Downloads all and the latest feeding diary data from google sheets.
 - `node run download-feeding-diary`
 - Creates `data/feeding-diary.json`
 
-## Build Website
+### Process Photos
+
+Processing photos happens in three steps:
+- Unzip `Kitty Diary Photos.zip` from the root of the project into `photos/`
+- Extract EXIF data from the photos to get the date that each photo was taken, and write out a photo feed: `data/photo-feed.json`
+- Resize all the photos from their original size (big, many megabytes) to a smaller size in `build/photos`
+
+To run all these jobs in one go, run: `node run process-photos`
+
+### Build Website
 
 After downloading data, you can build the site as static HTML.
 
