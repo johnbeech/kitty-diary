@@ -1,7 +1,7 @@
 const { ExifImage } = require('exif')
 const { find, write, position } = require('promise-path')
 const datapath = position(__dirname, '../data')
-const report = (...messages) => console.log('[EXIF Images]', ...messages)
+const report = (...messages) => console.log('[EXIF Photos]', ...messages)
 
 async function getPhotoMetaData(path) {
   return new Promise((resolve, reject) => {
