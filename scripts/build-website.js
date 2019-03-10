@@ -61,8 +61,8 @@ async function start () {
   const templateFiles = await findTemplateFiles()
   const staticFiles = await findStaticFiles()
 
-  const feed = (await readJson('feeding-diary.json'))
-    .reverse()
+  const diaryFeed = await readJson('diary-feed.json')
+  const feed = diaryFeed.feedingDiary.reverse()
     .filter(n => n.wetFoodMorning)
 
   feed.forEach(n => {
