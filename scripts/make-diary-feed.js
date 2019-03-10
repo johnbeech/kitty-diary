@@ -1,4 +1,5 @@
 const { read, write, position } = require('promise-path')
+const convertGSheetsDate = require('./utils/convertGSheetsDate')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Make Diary Feed]', ...messages)
 
@@ -8,12 +9,18 @@ async function readJson(file) {
 }
 
 async function makeDiaryFeed (feedingDiary, photoFeed) {
-  // TODO: Add dates, sort the two feeds into order
-  const feedData = {
-    feedingDiary,
-    photoFeed
-  }
-  return write(datapath('diary-feed.json'), JSON.stringify(feedData), 'utf8')
+  feedingDiary = feedingDiary.filter(n => n.wetFoodMorning)
+  feedingDiary.forEach(n => {
+    n.date = convertGSheetsDate(n.date)
+  })
+  photoFeed.forEach(n => {
+    n.date = new Date(Date.parse(n.date))
+  })
+
+  const feedData = [].concat(feedingDiary, photoFeed).sort((a, b) => {
+    return a.date.getTime() - b.date.getTime()
+  })
+  return write(datapath('diary-feed.json'), JSON.stringify(feedData, null, 2), 'utf8')
 }
 
 async function start () {

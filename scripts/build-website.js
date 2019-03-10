@@ -61,18 +61,17 @@ async function start () {
   const templateFiles = await findTemplateFiles()
   const staticFiles = await findStaticFiles()
 
-  const diaryFeed = await readJson('diary-feed.json')
-  const feed = diaryFeed.feedingDiary.reverse()
-    .filter(n => n.wetFoodMorning)
-
+  const feed = await readJson('diary-feed.json')
   feed.forEach(n => {
     n.notes = (n.notes || '').split('\n')
   })
 
+  const reversedFeed = feed.reverse()
+
   await clean(buildpath('css'))
   await clean(buildpath('images'))
   await clean(buildpath('index.html'))
-  await processTemplates(templateFiles, feed)
+  await processTemplates(templateFiles, reversedFeed)
   await copyStaticFiles(staticFiles)
   return true
 }

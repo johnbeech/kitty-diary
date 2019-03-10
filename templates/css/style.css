@@ -229,3 +229,8 @@ html, body {
   background: #660000;
   color: white;
 }
+
+.entry > div > img {
+  width: 100%;
+  border-radius: 6px;
+}

@@ -29,6 +29,7 @@
     <div class="kitty image icarus" title="Icarus"></div>
     <div class="feed">
     {{#each this}}
+      {{#if wetFoodMorning}}
       <div class="entry">
       <div class="value dow">{{dow}}</div>
       <div class="value date">{{date}}</div>
@@ -41,6 +42,11 @@
       <div class="value wetTotalGrams">{{wetTotalGrams}}</div>
       <div class="value notes">{{#each notes}}<p>{{this}}</p>{{/each}}</div>
       </div>
+      {{else if image}}
+      <div class="entry">
+        <div class="image"><img src="{{image}}" alt="Kitty Diary Photo: {{date}}" /></div>
+      </div>
+      {{/if}}
     {{/each}}
     </div>
   </div>
