@@ -22,7 +22,8 @@ async function start () {
 
   scripts['download-all'] = async () => {
     return processScripts([
-      'download-feeding-diary'
+      'download-feeding-diary',
+      'make-diary-feed'
     ], scripts)
   }
 
