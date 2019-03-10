@@ -1,3 +1,5 @@
 node_modules
 .ftppass
 build
+.DS_Store
+photos/

@@ -9,7 +9,9 @@
     "quick-publish": "node run download-all && node run build-website && node deploy live-text"
   },
   "nodemonConfig": {
-    "ignore": ["build/*"],
+    "ignore": [
+      "build/*"
+    ],
     "delay": "250",
     "ext": "js,json,html,css"
   },
@@ -33,5 +35,7 @@
     "nodemon": "^1.18.10",
     "promise-path": "^1.4.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "exif": "^0.6.0"
+  }
 }
