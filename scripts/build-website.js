@@ -69,7 +69,9 @@ async function start () {
     n.notes = (n.notes || '').split('\n')
   })
 
-  await clean(buildpath(''))
+  await clean(buildpath('css'))
+  await clean(buildpath('images'))
+  await clean(buildpath('index.html'))
   await processTemplates(templateFiles, feed)
   await copyStaticFiles(staticFiles)
   return true
