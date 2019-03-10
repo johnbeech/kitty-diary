@@ -59,3 +59,17 @@ After building, and assuming you have set up a secret password file as [per the 
 - `node deploy live-release`
 
 And all the files in the `build` directory will be uploaded to the server.
+
+### Daily updates
+
+To grab the latest day's diary and publish straight to the website, run:
+- `npm run quick-publish`
+
+This will download the latest entries from the feeding diary, build the website, and upload the text files to the live server.
+
+### Updating photos
+
+To upload a new set of photos, run:
+- `node release live-photos`
+
+This script uses the same permissions as the `live-release` script, but only targets files in the `photos/` path.
