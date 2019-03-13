@@ -29,6 +29,15 @@ html, body {
   .main {
     max-width: 800px;
   }
+
+  .entry > .value {
+    display: inline-block;
+  }
+
+  .day.value {
+    display: inline-block;
+    position: absolute;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -36,6 +45,14 @@ html, body {
     min-height: 150px;
     width: 100%;
     padding-bottom: 10%;
+  }
+
+  .entry > .value {
+    display: block;
+  }
+
+  .day.value {
+    display: block;
   }
 }
 
@@ -64,7 +81,6 @@ html, body {
 }
 
 .entry > .value {
-  display: inline-block;
   margin-bottom: 6px;
 }
 
@@ -97,8 +113,6 @@ html, body {
 }
 
 .day.value {
-  display: inline-block;
-  position: absolute;
   top: 4px;
   left: 4px;
   text-transform: capitalize;
