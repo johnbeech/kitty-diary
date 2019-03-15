@@ -9,6 +9,7 @@ async function readJson(file) {
 }
 
 async function makeDiaryFeed (feedingDiary, photoFeed) {
+  report('Making diary-feed.json')
   feedingDiary = feedingDiary.filter(n => n.wetFoodMorning)
   feedingDiary.forEach(n => {
     n.date = convertGSheetsDate(n.date)
@@ -24,7 +25,9 @@ async function makeDiaryFeed (feedingDiary, photoFeed) {
 }
 
 async function start () {
+  report('Reading feeding diary')
   const feedingDiary = await readJson('feeding-diary.json')
+  report('Reading photo feed')
   const photoFeed = await readJson('photo-feed.json')
   return makeDiaryFeed(feedingDiary, photoFeed)
 }

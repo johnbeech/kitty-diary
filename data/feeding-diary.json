@@ -528,22 +528,40 @@
   {
     "dow": "Tuesday",
     "date": 43536,
-    "day": 53
+    "day": 53,
+    "wetFoodMorning": "Salmon",
+    "wetFoodEvening": "Duck",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Kitties! The cats kept Hannah company while I was at the cinema."
   },
   {
     "dow": "Wednesday",
     "date": 43537,
-    "day": 54
+    "day": 54,
+    "wetFoodMorning": "Salmon",
+    "wetFoodEvening": "Poultry",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Had my parents over to visit; Ezio has been quite scared, hiding in the paper box. We managed to get him out to feed from his bowl, but he was still quite distant. After eating his food, he went back to hiding in the paper box."
   },
   {
     "dow": "Thursday",
     "date": 43538,
-    "day": 55
+    "day": 55,
+    "wetFoodMorning": "Tuna",
+    "wetFoodEvening": "Duck",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Hannah spent the day at home recovering. The cats kept her company. Ok feeding morning and evening."
   },
   {
     "dow": "Friday",
     "date": 43539,
-    "day": 56
+    "day": 56,
+    "wetFoodMorning": "Tuna",
+    "wetTotalGrams": 100,
+    "notes": "Cats ate their food ok this morning. I sat in the corner of the kitchen and Ezio jumped up, so he got morning cuddles. He was meowing before that as both Hannah and I were down in the kitchen at the same time. Hannah says they don't normally meow at her like that in the morning, so maybe they're expecting me to feed them."
   },
   {
     "dow": "Saturday",
