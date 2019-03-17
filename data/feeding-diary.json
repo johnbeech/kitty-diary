@@ -578,7 +578,11 @@
   {
     "dow": "Sunday",
     "date": 43541,
-    "day": 58
+    "day": 58,
+    "wetFoodMorning": "Tuna",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 100,
+    "notes": "Hannah almost fed them different packs of food today, spotting at the last moment that one bag was Tuna and the other White Fish. The cats have been meowing at us since this morning, climbing on our laps, trying to steal our snacks, and snoozing off. In the afternoon we played with the laser and had them running up and downstairs, before letting them roam freely. Ezio kept meowing at us, vying for our attention, so after several minutes of that, we took them back downstairs."
   },
   {
     "dow": "Monday",
