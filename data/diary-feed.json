@@ -806,14 +806,6 @@
     "notes": "Had my parents over to visit; Ezio has been quite scared, hiding in the paper box. We managed to get him out to feed from his bowl, but he was still quite distant. After eating his food, he went back to hiding in the paper box."
   },
   {
-    "image": "photos/IMG_20190313_085303.jpg",
-    "date": "2019-03-13T08:53:05.000Z"
-  },
-  {
-    "image": "photos/IMG_20190313_085310.jpg",
-    "date": "2019-03-13T08:53:11.000Z"
-  },
-  {
     "dow": "Thursday",
     "date": "2019-03-14T00:00:00.000Z",
     "day": 55,
@@ -842,5 +834,12 @@
     "dryTotalGrams": 0,
     "wetTotalGrams": 200,
     "notes": "Popped out the house today to see Captain Marvel. Ezio was meowing for our attention this morning downstairs while we were waking up downstairs. Icarus has found a new spot under the table in a plastic box to watch us from. Ezio is at the moment cleaning himself on the cat tower, no more, he jumped down. Now he's on my lap, licking my hand as I type. Hr certsinly likes attention more then his brother. "
+<<<<<<< HEAD
+=======
+  },
+  {
+    "image": "photos/IMG_20190316_095606.jpg",
+    "date": "2019-03-16T09:56:07.000Z"
+>>>>>>> Update photo-feed.json
   }
 ]
