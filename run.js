@@ -22,8 +22,7 @@ async function start () {
 
   scripts['download-all'] = async () => {
     return processScripts([
-      'download-feeding-diary',
-      'make-diary-feed'
+      'download-feeding-diary'
     ], scripts)
   }
 
@@ -32,6 +31,14 @@ async function start () {
       'unzip-photos',
       'exif-photos',
       'resize-photos'
+    ], scripts)
+  }
+
+  scripts['quick-publish'] = async () => {
+    return processScripts([
+      'download-all',
+      'make-diary-feed',
+      'build-website'
     ], scripts)
   }
 
