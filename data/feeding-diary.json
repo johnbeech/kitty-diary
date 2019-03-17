@@ -560,13 +560,20 @@
     "date": 43539,
     "day": 56,
     "wetFoodMorning": "Tuna",
-    "wetTotalGrams": 100,
-    "notes": "Cats ate their food ok this morning. I sat in the corner of the kitchen and Ezio jumped up, so he got morning cuddles. He was meowing before that as both Hannah and I were down in the kitchen at the same time. Hannah says they don't normally meow at her like that in the morning, so maybe they're expecting me to feed them."
+    "wetFoodEvening": "Turkey",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Cats ate their food ok this morning. I sat in the corner of the kitchen and Ezio jumped up, so he got morning cuddles. He was meowing before that as both Hannah and I were down in the kitchen at the same time. Hannah says they don't normally meow at her like that in the morning, so maybe they're expecting me to feed them.\n\nFed them a little bit later; at 6:10pm, usual meowing. Icarus ate his food, walked off, and leapt up onto the cat tower. Ezio is still nomming at the time of writing."
   },
   {
     "dow": "Saturday",
     "date": 43540,
-    "day": 57
+    "day": 57,
+    "wetFoodMorning": "Coley",
+    "wetFoodEvening": "Turkey",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Popped out the house today to see Captain Marvel. Ezio was meowing for our attention this morning downstairs while we were waking up downstairs. Icarus has found a new spot under the table in a plastic box to watch us from. Ezio is at the moment cleaning himself on the cat tower, no more, he jumped down. Now he's on my lap, licking my hand as I type. Hr certsinly likes attention more then his brother. "
   },
   {
     "dow": "Sunday",
