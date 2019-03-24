@@ -36,6 +36,9 @@ const modes = {
   }),
   'live-photos': () => deploy({
     include: ['photos/*.jpg']
+  }),
+  'live-images': () => deploy({
+    include: ['images/*.png']
   })
 }
 
