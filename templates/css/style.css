@@ -1,6 +1,9 @@
 html, body {
   font-family: sans-serif;
   font-size: 14px;
+  background-color: #E6BC92;
+  background-image: url(../images/paws.png);
+  background-repeat: repeat;
 }
 
 .main {
@@ -23,6 +26,7 @@ html, body {
   background-size: 100%;
   border-radius: 12px;
   margin-bottom: 6px;
+  border-bottom: 3px solid black;
 }
 
 @media only screen and (min-width: 992px) {
@@ -74,6 +78,7 @@ html, body {
   padding: 6px;
   margin-bottom: 12px;
   position: relative;
+  border-bottom: 3px solid black;
 }
 
 .entry > .label {
