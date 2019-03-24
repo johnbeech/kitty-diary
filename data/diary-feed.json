@@ -806,6 +806,14 @@
     "notes": "Had my parents over to visit; Ezio has been quite scared, hiding in the paper box. We managed to get him out to feed from his bowl, but he was still quite distant. After eating his food, he went back to hiding in the paper box."
   },
   {
+    "image": "photos/IMG_20190313_085303.jpg",
+    "date": "2019-03-13T08:53:05.000Z"
+  },
+  {
+    "image": "photos/IMG_20190313_085310.jpg",
+    "date": "2019-03-13T08:53:11.000Z"
+  },
+  {
     "dow": "Thursday",
     "date": "2019-03-14T00:00:00.000Z",
     "day": 55,
@@ -844,8 +852,111 @@
     "date": "2019-03-17T00:00:00.000Z",
     "day": 58,
     "wetFoodMorning": "Tuna",
+    "wetFoodEvening": "Duck",
     "dryTotalGrams": 0,
-    "wetTotalGrams": 100,
+    "wetTotalGrams": 200,
     "notes": "Hannah almost fed them different packs of food today, spotting at the last moment that one bag was Tuna and the other White Fish. The cats have been meowing at us since this morning, climbing on our laps, trying to steal our snacks, and snoozing off. In the afternoon we played with the laser and had them running up and downstairs, before letting them roam freely. Ezio kept meowing at us, vying for our attention, so after several minutes of that, we took them back downstairs."
+  },
+  {
+    "dow": "Monday",
+    "date": "2019-03-18T00:00:00.000Z",
+    "day": 59,
+    "wetFoodMorning": "White Fish",
+    "wetFoodEvening": "Chicken",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Fed cats, Ezio and Icarus have Coley to eat, and John has a bowl of wheaties with milk. So far this evening the cats have been well behaved, only knocking over a mostly empty bottle of oil."
+  },
+  {
+    "dow": "Tuesday",
+    "date": "2019-03-19T00:00:00.000Z",
+    "day": 60,
+    "wetFoodMorning": "Poultry",
+    "wetFoodEvening": "Coley",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Kitties! Cats fed ok this morning; they curled up on the sofa blanket before I left for work. There was some growling this evening after I arrived home mid-feeding. Handed back the plastic cat carriers to our friend half an hour later when they collected them from the house. "
+  },
+  {
+    "image": "photos/IMG_20190319_093105.jpg",
+    "date": "2019-03-19T09:31:06.000Z"
+  },
+  {
+    "image": "photos/IMG_20190319_211809.jpg",
+    "date": "2019-03-19T21:18:10.000Z"
+  },
+  {
+    "dow": "Wednesday",
+    "date": "2019-03-20T00:00:00.000Z",
+    "day": 61,
+    "wetFoodMorning": "Coley",
+    "wetFoodEvening": "Turkey",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Kitties!"
+  },
+  {
+    "image": "photos/IMG_20190320_075627.jpg",
+    "date": "2019-03-20T07:56:28.000Z"
+  },
+  {
+    "image": "photos/IMG_20190320_075633.jpg",
+    "date": "2019-03-20T07:56:34.000Z"
+  },
+  {
+    "dow": "Thursday",
+    "date": "2019-03-21T00:00:00.000Z",
+    "day": 62,
+    "wetFoodMorning": "Salmon",
+    "wetFoodEvening": "Turkey",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "From Hannah this morning: \"Icarus was nudging my hand for scritches. Ezio was indifferent to my existence.\", When I went down to feed them, I made sure to give them both nuzzles and headscritches before preparing food for them. There was the usual amount of excitable meowing as the food bowls went down."
+  },
+  {
+    "dow": "Friday",
+    "date": "2019-03-22T00:00:00.000Z",
+    "day": 63,
+    "wetFoodMorning": "Coley",
+    "wetFoodEvening": "Duck",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "No problems feeding; although we fed them a bit later then usual. Both cats were being adorable."
+  },
+  {
+    "image": "photos/IMG_20190322_081321.jpg",
+    "date": "2019-03-22T08:13:23.000Z"
+  },
+  {
+    "image": "photos/IMG_20190322_081326.jpg",
+    "date": "2019-03-22T08:13:27.000Z"
+  },
+  {
+    "dow": "Saturday",
+    "date": "2019-03-23T00:00:00.000Z",
+    "day": 64,
+    "wetFoodMorning": "Poultry",
+    "wetFoodEvening": "Coley",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Hannah's friend Roz came round today at lunch; Ezio was very friendly for once, and we gave Roz and the cats a tour of the house. Roz thinks that the cats are very cute and she loves them."
+  },
+  {
+    "image": "photos/IMG_20190323_220827.jpg",
+    "date": "2019-03-23T22:08:28.000Z"
+  },
+  {
+    "dow": "Sunday",
+    "date": "2019-03-24T00:00:00.000Z",
+    "day": 65,
+    "wetFoodMorning": "Poultry",
+    "wetFoodEvening": "White Fish",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Stayed in all day, tidying up, playing board games, doing chores, cooking food. Cats looked a bit confused mid day. We had them upstairs for a bit, but Ezio meowed lots when we closed some of the upstairs doors. Same when we were downstairs trying to keep them off the table. We also had to keep them out the kitchen while I was mowing the lawn, emptying the bins, and changing the litter. Switched back to the slightly more expensive wood litter, after we decided that the cheaper disintergrated too quickly. Ended up vacuuming the kitchen several times during the day."
+  },
+  {
+    "image": "photos/IMG_20190324_104221.jpg",
+    "date": "2019-03-24T10:42:22.000Z"
   }
 ]

@@ -580,44 +580,80 @@
     "date": 43541,
     "day": 58,
     "wetFoodMorning": "Tuna",
+    "wetFoodEvening": "Duck",
     "dryTotalGrams": 0,
-    "wetTotalGrams": 100,
+    "wetTotalGrams": 200,
     "notes": "Hannah almost fed them different packs of food today, spotting at the last moment that one bag was Tuna and the other White Fish. The cats have been meowing at us since this morning, climbing on our laps, trying to steal our snacks, and snoozing off. In the afternoon we played with the laser and had them running up and downstairs, before letting them roam freely. Ezio kept meowing at us, vying for our attention, so after several minutes of that, we took them back downstairs."
   },
   {
     "dow": "Monday",
     "date": 43542,
-    "day": 59
+    "day": 59,
+    "wetFoodMorning": "White Fish",
+    "wetFoodEvening": "Chicken",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Fed cats, Ezio and Icarus have Coley to eat, and John has a bowl of wheaties with milk. So far this evening the cats have been well behaved, only knocking over a mostly empty bottle of oil."
   },
   {
     "dow": "Tuesday",
     "date": 43543,
-    "day": 60
+    "day": 60,
+    "wetFoodMorning": "Poultry",
+    "wetFoodEvening": "Coley",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Kitties! Cats fed ok this morning; they curled up on the sofa blanket before I left for work. There was some growling this evening after I arrived home mid-feeding. Handed back the plastic cat carriers to our friend half an hour later when they collected them from the house. "
   },
   {
     "dow": "Wednesday",
     "date": 43544,
-    "day": 61
+    "day": 61,
+    "wetFoodMorning": "Coley",
+    "wetFoodEvening": "Turkey",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Kitties!"
   },
   {
     "dow": "Thursday",
     "date": 43545,
-    "day": 62
+    "day": 62,
+    "wetFoodMorning": "Salmon",
+    "wetFoodEvening": "Turkey",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "From Hannah this morning: \"Icarus was nudging my hand for scritches. Ezio was indifferent to my existence.\", When I went down to feed them, I made sure to give them both nuzzles and headscritches before preparing food for them. There was the usual amount of excitable meowing as the food bowls went down."
   },
   {
     "dow": "Friday",
     "date": 43546,
-    "day": 63
+    "day": 63,
+    "wetFoodMorning": "Coley",
+    "wetFoodEvening": "Duck",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "No problems feeding; although we fed them a bit later then usual. Both cats were being adorable."
   },
   {
     "dow": "Saturday",
     "date": 43547,
-    "day": 64
+    "day": 64,
+    "wetFoodMorning": "Poultry",
+    "wetFoodEvening": "Coley",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Hannah's friend Roz came round today at lunch; Ezio was very friendly for once, and we gave Roz and the cats a tour of the house. Roz thinks that the cats are very cute and she loves them."
   },
   {
     "dow": "Sunday",
     "date": 43548,
-    "day": 65
+    "day": 65,
+    "wetFoodMorning": "Poultry",
+    "wetFoodEvening": "White Fish",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Stayed in all day, tidying up, playing board games, doing chores, cooking food. Cats looked a bit confused mid day. We had them upstairs for a bit, but Ezio meowed lots when we closed some of the upstairs doors. Same when we were downstairs trying to keep them off the table. We also had to keep them out the kitchen while I was mowing the lawn, emptying the bins, and changing the litter. Switched back to the slightly more expensive wood litter, after we decided that the cheaper disintergrated too quickly. Ended up vacuuming the kitchen several times during the day.\n\nDuring the afternoon Hannah fed them a portion of the cat milk each, they lapped it up in no time, definitely tasty for them. There was also a mystery involving egg-pan-water which dissapeared off the cooker. There wasn't too much water, but we don't normally see them licking or drinking plain water, so that was slightly concerning.\n\nEvening food went down ok, Ezio didn't quite finish all of his food, and I had to move the bowl away from Icarus a few times, but they got there in the end."
   },
   {
     "dow": "Monday",
