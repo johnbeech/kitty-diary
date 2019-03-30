@@ -2,7 +2,7 @@ const feedingCharts = []
 
 function insertFeedingChart() {
   const chartId = `feedingChart-${feedingCharts.length}`
-  document.write(`<canvas id="${chartId}" width="100%" height="50vh"></canvas>`)
+  document.write(`<canvas id="${chartId}" width="100%"></canvas>`)
   const ctx = document.getElementById(chartId).getContext('2d')
   const chart = new Chart(ctx, {
     type: 'doughnut',
@@ -30,7 +30,9 @@ function insertFeedingChart() {
         borderWidth: 3
       }]
     },
-    options: {}
+    options: {
+      aspectRatio: 1.5
+    }
   })
   feedingCharts.push(chart)
 }
