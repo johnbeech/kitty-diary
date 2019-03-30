@@ -26,6 +26,8 @@
   <meta name="theme-color" content="#CC9966">
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js" type="text/javascript"></script>
+  <script src="/js/feedingChart.js" type="text/javascript"></script>
 </head>
 <body>
   <div class="main">
@@ -34,6 +36,9 @@
     <div class="kitty image ezio" title="Ezio"></div>
     <div class="kitty image icarus" title="Icarus"></div>
     <div class="feed">
+      <div class="entry">
+        <script>insertFeedingChart()</script>
+      </div>
     {{#each this}}
       {{#if wetFoodMorning}}
       <div class="entry">
