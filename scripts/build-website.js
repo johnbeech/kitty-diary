@@ -7,6 +7,10 @@ const templatepath = position(__dirname, '../templates')
 const buildpath = position(__dirname, '../build')
 const report = (...messages) => console.log('[Build Website]', ...messages)
 
+handlebars.registerHelper('toJSON', (object)=> {
+	return new handlebars.SafeString(JSON.stringify(object))
+})
+
 async function processTemplates (files, data) {
   const templateWork = files.map(filePath => processTemplate(filePath, data))
   return Promise.all(templateWork)

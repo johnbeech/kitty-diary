@@ -1027,5 +1027,26 @@
     "wetFoodMorning": "Poultry",
     "dryTotalGrams": 0,
     "wetTotalGrams": 100
+  },
+  {
+    "date": "2019-03-30T00:00:00.000Z",
+    "feedingChart": {
+      "labels": [
+        "Beef",
+        "Poultry",
+        "Chicken",
+        "Lamb",
+        "Salmon",
+        "Orange"
+      ],
+      "data": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        3
+      ]
+    }
   }
 ]
