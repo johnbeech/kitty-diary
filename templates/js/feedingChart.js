@@ -1,16 +1,16 @@
 const feedingCharts = []
 
-function insertFeedingChart() {
+function insertFeedingChart({ data, labels }) {
   const chartId = `feedingChart-${feedingCharts.length}`
   document.write(`<canvas id="${chartId}" width="100%"></canvas>`)
   const ctx = document.getElementById(chartId).getContext('2d')
   const chart = new Chart(ctx, {
     type: 'doughnut',
     data: {
-      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+      labels,
       datasets: [{
         label: '# of Votes',
-        data: [12, 19, 3, 5, 2, 3],
+        data,
         backgroundColor: [
           'rgba(255, 99, 132, 0.9)',
           'rgba(54, 162, 235, 0.9)',

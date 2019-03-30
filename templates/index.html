@@ -37,7 +37,10 @@
     <div class="kitty image icarus" title="Icarus"></div>
     <div class="feed">
       <div class="entry">
-        <script>insertFeedingChart()</script>
+        <script>insertFeedingChart({
+          labels: ['Beef', 'Poultry', 'Chicken', 'Lamb', 'Salmon', 'Orange'],
+          data: [5, 4, 3, 2, 1, 3]
+        })</script>
       </div>
     {{#each this}}
       {{#if wetFoodMorning}}
