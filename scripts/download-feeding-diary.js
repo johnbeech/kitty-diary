@@ -11,7 +11,7 @@ async function downloadData (spreadsheetId) {
     const entries = worksheets.reduce((acc, item) => acc.concat(item), [])
     const filename = 'feeding-diary.json'
     report('Writing combined data to:', filename)
-    write(datapath(filename), JSON.stringify(entries, null, 2), 'utf8')
+    await write(datapath(filename), JSON.stringify(entries, null, 2), 'utf8')
   } catch (ex) {
     report('Unable to download data:', ex)
   }
