@@ -658,32 +658,59 @@
   {
     "dow": "Monday",
     "date": 43549,
-    "day": 66
+    "day": 66,
+    "wetFoodMorning": "Turkey",
+    "wetFoodEvening": "Salmon",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Kitties! Ezio was being extra friendly again this morning when I came down; I didnt' feed them until an hour later when he'd calmed down a bit. Icarus was being a bit of a scaredy cat for a chance, or at least, didn't want head pats."
   },
   {
     "dow": "Tuesday",
     "date": 43550,
-    "day": 67
+    "day": 67,
+    "wetFoodMorning": "Tuna",
+    "wetFoodEvening": "Lamb",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Ezio still struggling to eat his food, had to mix in some water, and fend off his brother. He licked off all the gel no problem, but refused to nom on the meaty bits."
   },
   {
     "dow": "Wednesday",
     "date": 43551,
-    "day": 68
+    "day": 68,
+    "wetFoodMorning": "Beef",
+    "wetFoodEvening": "Chicken",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Ezio had no problems eating his food in the evening. Had a visit from my Dad on his way down from Rochdale; Ezio was a bit timid at first, but after we'd sat down in the kitchen he came to explore and sit on my lap."
   },
   {
     "dow": "Thursday",
     "date": 43552,
-    "day": 69
+    "day": 69,
+    "wetFoodMorning": "Poultry",
+    "wetFoodEvening": "Lamb",
+    "wetTotalGrams": 200,
+    "notes": "Cats are fed, Ezio eating his food well again."
   },
   {
     "dow": "Friday",
     "date": 43553,
-    "day": 70
+    "day": 70,
+    "wetFoodMorning": "Beef",
+    "wetFoodEvening": "Chicken",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Lots of meowing this morning before we came down stairs; took up the option to feed them cat milk before feeding them properly an hour later. The beef packs were split between gravy and gel, so I gave them half each.\n\nNo problems with either of them nomming down their food. Had to spray Ezio in the face after lifting him down 3 times; he was making it really difficult to prepare the food. Icarus was very well behaved again."
   },
   {
     "dow": "Saturday",
     "date": 43554,
-    "day": 71
+    "day": 71,
+    "wetFoodMorning": "Poultry",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 100
   },
   {
     "dow": "Sunday",

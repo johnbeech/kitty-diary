@@ -960,6 +960,36 @@
     "date": "2019-03-24T10:42:22.000Z"
   },
   {
+    "dow": "Monday",
+    "date": "2019-03-25T00:00:00.000Z",
+    "day": 66,
+    "wetFoodMorning": "Turkey",
+    "wetFoodEvening": "Salmon",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Kitties! Ezio was being extra friendly again this morning when I came down; I didnt' feed them until an hour later when he'd calmed down a bit. Icarus was being a bit of a scaredy cat for a chance, or at least, didn't want head pats."
+  },
+  {
+    "dow": "Tuesday",
+    "date": "2019-03-26T00:00:00.000Z",
+    "day": 67,
+    "wetFoodMorning": "Tuna",
+    "wetFoodEvening": "Lamb",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Ezio still struggling to eat his food, had to mix in some water, and fend off his brother. He licked off all the gel no problem, but refused to nom on the meaty bits."
+  },
+  {
+    "dow": "Wednesday",
+    "date": "2019-03-27T00:00:00.000Z",
+    "day": 68,
+    "wetFoodMorning": "Beef",
+    "wetFoodEvening": "Chicken",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Ezio had no problems eating his food in the evening. Had a visit from my Dad on his way down from Rochdale; Ezio was a bit timid at first, but after we'd sat down in the kitchen he came to explore and sit on my lap."
+  },
+  {
     "image": "photos/IMG_20190327_084953.jpg",
     "date": "2019-03-27T08:49:54.000Z"
   },
@@ -968,7 +998,34 @@
     "date": "2019-03-27T12:29:57.000Z"
   },
   {
+    "dow": "Thursday",
+    "date": "2019-03-28T00:00:00.000Z",
+    "day": 69,
+    "wetFoodMorning": "Poultry",
+    "wetFoodEvening": "Lamb",
+    "wetTotalGrams": 200,
+    "notes": "Cats are fed, Ezio eating his food well again."
+  },
+  {
     "image": "photos/IMG_20190328_091212.jpg",
     "date": "2019-03-28T09:12:12.000Z"
+  },
+  {
+    "dow": "Friday",
+    "date": "2019-03-29T00:00:00.000Z",
+    "day": 70,
+    "wetFoodMorning": "Beef",
+    "wetFoodEvening": "Chicken",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Lots of meowing this morning before we came down stairs; took up the option to feed them cat milk before feeding them properly an hour later. The beef packs were split between gravy and gel, so I gave them half each.\n\nNo problems with either of them nomming down their food. Had to spray Ezio in the face after lifting him down 3 times; he was making it really difficult to prepare the food. Icarus was very well behaved again."
+  },
+  {
+    "dow": "Saturday",
+    "date": "2019-03-30T00:00:00.000Z",
+    "day": 71,
+    "wetFoodMorning": "Poultry",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 100
   }
 ]
