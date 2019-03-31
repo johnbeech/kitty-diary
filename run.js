@@ -37,6 +37,7 @@ async function start () {
   scripts['quick-publish'] = async () => {
     return processScripts([
       'download-all',
+      'make-chart-feed',
       'make-diary-feed',
       'build-website'
     ], scripts)
