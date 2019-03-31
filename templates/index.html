@@ -39,7 +39,7 @@
     {{#each this}}
       {{#if feedingChart}}
       <div class="entry">
-        <div class="value dow">Feeding Roundup</div>
+        <div class="value dow">Feeding Roundup for {{title}}</div>
         <script>insertFeedingChart({
           labels: {{toJSON feedingChart.labels}},
           data: {{toJSON feedingChart.data}}

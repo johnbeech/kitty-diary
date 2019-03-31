@@ -1,5 +1,28 @@
 const feedingCharts = []
 
+const foodColours = {}
+function defineFoodColour(label, background, color) {
+  foodColours[label.toLowerCase()] = {
+    label,
+    background,
+    color
+  }
+}
+defineFoodColour('Chicken', '#F9CB9C', 'black')
+defineFoodColour('Dry Chicken', '#F9CB9C', 'black')
+defineFoodColour('Duck', '#B4A7D6', 'black')
+defineFoodColour('Turkey', '#C59F7B', 'black')
+defineFoodColour('Poultry', '#FFE599', 'black')
+defineFoodColour('Beef', '#783F04', 'white')
+defineFoodColour('Tuna', '#A4C2F4', 'black')
+defineFoodColour('Dry Tuna', '#A4C2F4', 'black')
+defineFoodColour('White Fish', '#D0E0E3', 'black')
+defineFoodColour('Salmon', '#F4CCCC', 'black')
+defineFoodColour('Coley', '#CFE2F3', 'black')
+defineFoodColour('Lamb', '#660000', 'white')
+defineFoodColour('Treats', '#FFEEDD', 'black')
+defineFoodColour('default', '#777777', 'white')
+
 function insertFeedingChart({ data, labels }) {
   const chartId = `feedingChart-${feedingCharts.length}`
   document.write(`<canvas id="${chartId}" width="100%"></canvas>`)
@@ -9,24 +32,10 @@ function insertFeedingChart({ data, labels }) {
     data: {
       labels,
       datasets: [{
-        label: '# of Votes',
+        label: '# times fed',
         data,
-        backgroundColor: [
-          'rgba(255, 99, 132, 0.9)',
-          'rgba(54, 162, 235, 0.9)',
-          'rgba(255, 206, 86, 0.9)',
-          'rgba(75, 192, 192, 0.9)',
-          'rgba(153, 102, 255, 0.9)',
-          'rgba(255, 159, 64, 0.9)'
-        ],
-        borderColor: [
-          'rgba(255, 99, 132, 1)',
-          'rgba(54, 162, 235, 1)',
-          'rgba(255, 206, 86, 1)',
-          'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)',
-          'rgba(255, 159, 64, 1)'
-        ],
+        backgroundColor: labels.map(l => (foodColours[l.toLowerCase()] || foodColours.default).background),
+        borderColor: labels.map(l => 'black'),
         borderWidth: 3
       }]
     },

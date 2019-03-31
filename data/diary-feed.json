@@ -561,7 +561,7 @@
     "date": "2019-02-23T00:00:00.000Z",
     "day": 36,
     "wetFoodMorning": "Duck",
-    "wetFoodEvening": "Whitefish",
+    "wetFoodEvening": "White Fish",
     "dryTotalGrams": 0,
     "wetTotalGrams": 200,
     "notes": "This morning the cats were let upstairs and explored around and got snuggled in bed. They ate their food ok."
@@ -659,7 +659,6 @@
         "Salmon",
         "Beef",
         "Duck",
-        "Whitefish",
         "Treats"
       ],
       "data": [
@@ -667,13 +666,12 @@
         7,
         10,
         3,
-        5,
+        6,
         4,
         5,
         6,
         2,
         6,
-        1,
         1
       ]
     }
@@ -1099,8 +1097,8 @@
         6,
         1,
         4,
-        2,
-        2
+        3,
+        3
       ]
     }
   },
@@ -1132,7 +1130,17 @@
     "date": "2019-03-30T00:00:00.000Z",
     "day": 71,
     "wetFoodMorning": "Poultry",
+    "wetFoodEvening": "Lamb",
     "dryTotalGrams": 0,
-    "wetTotalGrams": 100
+    "wetTotalGrams": 200,
+    "notes": "Our friend Leo came over yesterday to play games; Ezio although scared at first was much more friendly then he has been. They ate their food with vigor, and spent a lot of time pestering us. We didn't get to cuddle up with them on the sofa, but they both got plenty of petting."
+  },
+  {
+    "dow": "Sunday",
+    "date": "2019-03-31T00:00:00.000Z",
+    "day": 72,
+    "wetFoodMorning": "Beef",
+    "wetTotalGrams": 100,
+    "notes": "Fed the cats early today so that we could head out for the day. Going to leave them milk out."
   }
 ]
