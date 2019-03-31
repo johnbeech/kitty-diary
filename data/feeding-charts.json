@@ -1,7 +1,23 @@
-[{
+[
+  {
     "date": "2019-03-30T00:00:00.000Z",
     "feedingChart": {
-      "labels": ["Beef", "Poultry", "Chicken", "Lamb", "Salmon", "Orange"],
-      "data": [5, 4, 3, 2, 1, 3]
+      "labels": [
+        "Beef",
+        "Poultry",
+        "Chicken",
+        "Lamb",
+        "Salmon",
+        "Orange"
+      ],
+      "data": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        3
+      ]
     }
-}]
+  }
+]
