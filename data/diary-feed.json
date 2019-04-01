@@ -172,16 +172,6 @@
     "notes": "Thing were suspiciously perfect this morning. Hannah is sure they got up to something but we havent found any evidence yet. Slight staining on one of the chairs, used fabric spray to freshen."
   },
   {
-    "dow": "Monday",
-    "date": "2019-01-28T00:00:00.000Z",
-    "day": 10,
-    "wetFoodMorning": "Coley",
-    "wetFoodEvening": "Salmon",
-    "dryTotalGrams": 0,
-    "wetTotalGrams": 200,
-    "notes": "Ezio meowed at the door when he was done. Had to choose the door after Icarus ran through, but I chased him away."
-  },
-  {
     "dateCode": "2019-01",
     "date": "2019-01-28T00:00:00.000Z",
     "title": "January 2019",
@@ -217,6 +207,16 @@
         1
       ]
     }
+  },
+  {
+    "dow": "Monday",
+    "date": "2019-01-28T00:00:00.000Z",
+    "day": 10,
+    "wetFoodMorning": "Coley",
+    "wetFoodEvening": "Salmon",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Ezio meowed at the door when he was done. Had to choose the door after Icarus ran through, but I chased him away."
   },
   {
     "dow": "Tuesday",
@@ -644,6 +644,16 @@
     "date": "2019-02-27T09:26:21.000Z"
   },
   {
+    "dow": "Thursday",
+    "date": "2019-02-28T00:00:00.000Z",
+    "day": 41,
+    "wetFoodMorning": "Duck",
+    "wetFoodEvening": "White Fish",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Icarus got into the recylcling bin. Salmon coated foil was ripped apart across the floor. Plastic and things spread around the living room and kitchen. Hannah fed them both in the kitchen, but had to stop Icarus from going to Ezio's food bowl. Hannah is giving Ivarus lots of snuggles while waiting for Ezio to finish eating."
+  },
+  {
     "dateCode": "2019-02",
     "date": "2019-02-28T00:00:00.000Z",
     "title": "February 2019",
@@ -675,16 +685,6 @@
         1
       ]
     }
-  },
-  {
-    "dow": "Thursday",
-    "date": "2019-02-28T00:00:00.000Z",
-    "day": 41,
-    "wetFoodMorning": "Duck",
-    "wetFoodEvening": "White Fish",
-    "dryTotalGrams": 0,
-    "wetTotalGrams": 200,
-    "notes": "Icarus got into the recylcling bin. Salmon coated foil was ripped apart across the floor. Plastic and things spread around the living room and kitchen. Hannah fed them both in the kitchen, but had to stop Icarus from going to Ezio's food bowl. Hannah is giving Ivarus lots of snuggles while waiting for Ezio to finish eating."
   },
   {
     "image": "photos/IMG_20190228_090921-EFFECTS.jpg",
@@ -1088,7 +1088,7 @@
       ],
       "data": [
         6,
-        8,
+        9,
         6,
         7,
         9,
@@ -1140,7 +1140,31 @@
     "date": "2019-03-31T00:00:00.000Z",
     "day": 72,
     "wetFoodMorning": "Beef",
+    "wetFoodEvening": "Chicken",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Fed the cats early today so that we could head out for the day. Going to leave them milk out. Left Milk out.\n\nLots of cuddles and snuggles in the evening once we got home. Had some trouble feeding them, but only because Ezio kept jumping up onto the counter, I had to lift him off serveral times. When I did get a food bowl down, he got his nose in before his brother, but then Icarus forced him away. The other food bowl was just sat in the open for a minute while Ezio meowed at me from back up on the counter. I just pointed at the food bowl until he spotted it. Both cats ate quickly finishing within about 30 seconds of each other."
+  },
+  {
+    "dow": "Monday",
+    "date": "2019-04-01T00:00:00.000Z",
+    "day": 73,
+    "wetFoodMorning": "Chicken",
+    "dryTotalGrams": 0,
     "wetTotalGrams": 100,
-    "notes": "Fed the cats early today so that we could head out for the day. Going to leave them milk out."
+    "notes": "Less meowing when I went down to prep my cup of tea this morning. Ezio rubbed up quite close to me on the counter, and I got down on the floor to give Icarus a hug. I threatened with the spray bottle to keep Ezio nosing the food bowls as I poured the food out of the packets, that kept him at bay long enough to prepare the food and put it down. Managed to get a good split with them eating about 1m away from each other."
+  },
+  {
+    "dateCode": "2019-04",
+    "date": "2019-04-28T00:00:00.000Z",
+    "title": "April 2019",
+    "feedingChart": {
+      "labels": [
+        "Chicken"
+      ],
+      "data": [
+        1
+      ]
+    }
   }
 ]
