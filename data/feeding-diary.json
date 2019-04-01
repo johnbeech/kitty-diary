@@ -356,7 +356,7 @@
     "date": 43519,
     "day": 36,
     "wetFoodMorning": "Duck",
-    "wetFoodEvening": "Whitefish",
+    "wetFoodEvening": "White Fish",
     "dryTotalGrams": 0,
     "wetTotalGrams": 200,
     "notes": "This morning the cats were let upstairs and explored around and got snuggled in bed. They ate their food ok."
@@ -709,18 +709,29 @@
     "date": 43554,
     "day": 71,
     "wetFoodMorning": "Poultry",
+    "wetFoodEvening": "Lamb",
     "dryTotalGrams": 0,
-    "wetTotalGrams": 100
+    "wetTotalGrams": 200,
+    "notes": "Our friend Leo came over yesterday to play games; Ezio although scared at first was much more friendly then he has been. They ate their food with vigor, and spent a lot of time pestering us. We didn't get to cuddle up with them on the sofa, but they both got plenty of petting."
   },
   {
     "dow": "Sunday",
     "date": 43555,
-    "day": 72
+    "day": 72,
+    "wetFoodMorning": "Beef",
+    "wetFoodEvening": "Chicken",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Fed the cats early today so that we could head out for the day. Going to leave them milk out. Left Milk out.\n\nLots of cuddles and snuggles in the evening once we got home. Had some trouble feeding them, but only because Ezio kept jumping up onto the counter, I had to lift him off serveral times. When I did get a food bowl down, he got his nose in before his brother, but then Icarus forced him away. The other food bowl was just sat in the open for a minute while Ezio meowed at me from back up on the counter. I just pointed at the food bowl until he spotted it. Both cats ate quickly finishing within about 30 seconds of each other."
   },
   {
     "dow": "Monday",
     "date": 43556,
-    "day": 73
+    "day": 73,
+    "wetFoodMorning": "Chicken",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 100,
+    "notes": "Less meowing when I went down to prep my cup of tea this morning. Ezio rubbed up quite close to me on the counter, and I got down on the floor to give Icarus a hug. I threatened with the spray bottle to keep Ezio nosing the food bowls as I poured the food out of the packets, that kept him at bay long enough to prepare the food and put it down. Managed to get a good split with them eating about 1m away from each other."
   },
   {
     "dow": "Tuesday",

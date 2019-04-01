@@ -1,0 +1,120 @@
+[
+  {
+    "dateCode": "2019-01",
+    "date": "2019-01-28T00:00:00.000Z",
+    "title": "January 2019",
+    "feedingChart": {
+      "labels": [
+        "Shelter Food",
+        "Duck",
+        "Chicken",
+        "Turkey",
+        "Tuna",
+        "Salmon",
+        "Poultry",
+        "White Fish",
+        "Coley",
+        "Shortbread",
+        "Treats",
+        "Beef",
+        "Lamb"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        4,
+        4,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "dateCode": "2019-02",
+    "date": "2019-02-28T00:00:00.000Z",
+    "title": "February 2019",
+    "feedingChart": {
+      "labels": [
+        "Coley",
+        "Poultry",
+        "Chicken",
+        "Lamb",
+        "White Fish",
+        "Turkey",
+        "Tuna",
+        "Salmon",
+        "Beef",
+        "Duck",
+        "Treats"
+      ],
+      "data": [
+        7,
+        7,
+        10,
+        3,
+        6,
+        4,
+        5,
+        6,
+        2,
+        6,
+        1
+      ]
+    }
+  },
+  {
+    "dateCode": "2019-03",
+    "date": "2019-03-28T00:00:00.000Z",
+    "title": "March 2019",
+    "feedingChart": {
+      "labels": [
+        "Duck",
+        "Chicken",
+        "White Fish",
+        "Turkey",
+        "Coley",
+        "Poultry",
+        "Dry Chicken",
+        "Salmon",
+        "Treats",
+        "Tuna",
+        "Lamb",
+        "Beef"
+      ],
+      "data": [
+        6,
+        9,
+        6,
+        7,
+        9,
+        9,
+        2,
+        6,
+        1,
+        4,
+        3,
+        3
+      ]
+    }
+  },
+  {
+    "dateCode": "2019-04",
+    "date": "2019-04-28T00:00:00.000Z",
+    "title": "April 2019",
+    "feedingChart": {
+      "labels": [
+        "Chicken"
+      ],
+      "data": [
+        1
+      ]
+    }
+  }
+]

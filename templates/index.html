@@ -26,6 +26,8 @@
   <meta name="theme-color" content="#CC9966">
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js" type="text/javascript"></script>
+  <script src="/js/feedingChart.js" type="text/javascript"></script>
 </head>
 <body>
   <div class="main">
@@ -35,7 +37,15 @@
     <div class="kitty image icarus" title="Icarus"></div>
     <div class="feed">
     {{#each this}}
-      {{#if wetFoodMorning}}
+      {{#if feedingChart}}
+      <div class="entry">
+        <div class="value dow">Feeding Roundup for {{title}}</div>
+        <script>insertFeedingChart({
+          labels: {{toJSON feedingChart.labels}},
+          data: {{toJSON feedingChart.data}}
+        })</script>
+      </div>
+      {{else if wetFoodMorning}}
       <div class="entry">
       <div class="value dow">{{dow}}</div>
       <div class="value date">{{date}}</div>
