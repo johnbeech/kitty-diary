@@ -36,11 +36,36 @@ function insertFeedingChart({ data, labels }) {
         data,
         backgroundColor: labels.map(l => (foodColours[l.toLowerCase()] || foodColours.default).background),
         borderColor: labels.map(l => 'black'),
-        borderWidth: 3
+        borderWidth: 2
       }]
     },
     options: {
-      aspectRatio: 1.5
+      aspectRatio: 1.5,
+      layout: {
+        padding: 15
+      },
+      legend: {
+        display: false
+      },
+      plugins: {
+        labels: {
+          // render 'label', 'value', 'percentage', 'image' or custom function, default is 'percentage'
+          render: (d) => `${d.label} : ${d.value}`,
+          // precision for percentage, default is 0
+          precision: 0,
+          // position to draw label, available value is 'default', 'border' and 'outside'
+          position: 'default',
+          // add padding when position is `outside`
+          // default is 2
+          outsidePadding: 4,
+          // add margin of text when position is `outside` or `border`
+          // default is 2
+          textMargin: 4,
+          fontColor: 'black',
+          fontStyle: 'bold',
+          fontSize: 14
+        }
+      }
     }
   })
   feedingCharts.push(chart)

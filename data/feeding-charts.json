@@ -110,9 +110,17 @@
     "title": "April 2019",
     "feedingChart": {
       "labels": [
-        "Chicken"
+        "Chicken",
+        "Salmon",
+        "White Fish",
+        "Turkey",
+        "Poultry"
       ],
       "data": [
+        1,
+        2,
+        1,
+        1,
         1
       ]
     }

@@ -729,19 +729,30 @@
     "date": 43556,
     "day": 73,
     "wetFoodMorning": "Chicken",
+    "wetFoodEvening": "Salmon",
     "dryTotalGrams": 0,
-    "wetTotalGrams": 100,
+    "wetTotalGrams": 200,
     "notes": "Less meowing when I went down to prep my cup of tea this morning. Ezio rubbed up quite close to me on the counter, and I got down on the floor to give Icarus a hug. I threatened with the spray bottle to keep Ezio nosing the food bowls as I poured the food out of the packets, that kept him at bay long enough to prepare the food and put it down. Managed to get a good split with them eating about 1m away from each other."
   },
   {
     "dow": "Tuesday",
     "date": 43557,
-    "day": 74
+    "day": 74,
+    "wetFoodMorning": "White Fish",
+    "wetFoodEvening": "Turkey",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Kitties! We love them very much. Ezio jumped up on to my lap while we were playing board games, Hannah snapped a picture of him on the other side of the table while I was readying to take my turn. Ezio still leaving some food over, licking away the gel but not eating all the meat. Had trouble getting him to finish his food in the morning."
   },
   {
     "dow": "Wednesday",
     "date": 43558,
-    "day": 75
+    "day": 75,
+    "wetFoodMorning": "Salmon",
+    "wetFoodEvening": "Poultry",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 150,
+    "notes": "Ezio slow eating again this morning; leaving him to it downstairs in a separate room to Icarus."
   },
   {
     "dow": "Thursday",
