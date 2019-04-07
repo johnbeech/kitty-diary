@@ -11,29 +11,37 @@ function makeDateCode(t) {
   return new Date(t).toISOString().substring(0, 7)
 }
 
-function recordType(counts, type) {
-  if (type) {
-    report('Counting', type)
-    counts[type] = (counts[type] || 0) + 1
+function recordType(counts, foodType, timeType) {
+  if (foodType) {
+    report('Counting', foodType, timeType)
+    counts.total[foodType] = (counts.total[foodType] || 0) + 1
+    counts[timeType][foodType] = (counts[timeType][foodType] || 0) + 1
   }
 }
 
 function makeFeedingChart(feedingEntries) {
-  const counts = {}
+  const counts = {
+    'total': {},
+    'am': {},
+    'pm': {}
+  }
   feedingEntries.forEach(entry => {
-    recordType(counts, entry.wetFoodMorning)
-    recordType(counts, entry.wetFoodEvening)
-    recordType(counts, entry.dryFoodMorning)
-    recordType(counts, entry.dryFoodEvening)
+    recordType(counts, entry.wetFoodMorning, 'am')
+    recordType(counts, entry.wetFoodEvening, 'pm')
+    recordType(counts, entry.dryFoodMorning, 'am')
+    recordType(counts, entry.dryFoodEvening, 'pm')
   })
 
-  const labels = Object.keys(counts)
+  const feedingChart = Object.keys(counts).map(t => {
+    const totals = counts[t]
+    return {
+      label: `# times fed ${t}`,
+      labels:  Object.keys(totals),
+      data: Object.keys(totals).map(n => totals[n])
+    }
+  })
+  const labels = Object.keys(counts.total)
   const data = labels.map(n => counts[n])
-
-  const feedingChart = {
-    labels,
-    data
-  }
 
   return feedingChart
 }
@@ -84,7 +92,7 @@ async function makeChartFeed (feedingDiary) {
       title,
       feedingChart
     }
-  }).filter(n => n.feedingChart.data.length > 0)
+  }).filter(n => n.feedingChart[0].data.length > 0)
 
   report('Feeding Data By Month', feedingDataByMonth)
 

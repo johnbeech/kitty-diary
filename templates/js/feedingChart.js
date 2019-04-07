@@ -32,7 +32,19 @@ function insertFeedingChart({ data, labels }) {
     data: {
       labels,
       datasets: [{
-        label: '# times fed',
+        label: '# times fed total',
+        data,
+        backgroundColor: labels.map(l => (foodColours[l.toLowerCase()] || foodColours.default).background),
+        borderColor: labels.map(l => 'black'),
+        borderWidth: 2
+      },{
+        label: '# times fed morning',
+        data,
+        backgroundColor: labels.map(l => (foodColours[l.toLowerCase()] || foodColours.default).background),
+        borderColor: labels.map(l => 'black'),
+        borderWidth: 2
+      },{
+        label: '# times fed evening',
         data,
         backgroundColor: labels.map(l => (foodColours[l.toLowerCase()] || foodColours.default).background),
         borderColor: labels.map(l => 'black'),
@@ -45,12 +57,12 @@ function insertFeedingChart({ data, labels }) {
         padding: 15
       },
       legend: {
-        display: false
+        display: true
       },
       plugins: {
         labels: {
           // render 'label', 'value', 'percentage', 'image' or custom function, default is 'percentage'
-          render: (d) => `${d.label} : ${d.value}`,
+          render: (d) => `${d.value}, ${d.percentage}%`,
           // precision for percentage, default is 0
           precision: 0,
           // position to draw label, available value is 'default', 'border' and 'outside'
