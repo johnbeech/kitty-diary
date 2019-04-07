@@ -716,6 +716,16 @@
     "date": "2019-02-27T09:26:21.000Z"
   },
   {
+    "dow": "Thursday",
+    "date": "2019-02-28T00:00:00.000Z",
+    "day": 41,
+    "wetFoodMorning": "Duck",
+    "wetFoodEvening": "White Fish",
+    "dryTotalGrams": 0,
+    "wetTotalGrams": 200,
+    "notes": "Icarus got into the recylcling bin. Salmon coated foil was ripped apart across the floor. Plastic and things spread around the living room and kitchen. Hannah fed them both in the kitchen, but had to stop Icarus from going to Ezio's food bowl. Hannah is giving Ivarus lots of snuggles while waiting for Ezio to finish eating."
+  },
+  {
     "dateCode": "2019-02",
     "date": "2019-02-28T00:00:00.000Z",
     "title": "February 2019",
@@ -811,16 +821,6 @@
         ]
       }
     ]
-  },
-  {
-    "dow": "Thursday",
-    "date": "2019-02-28T00:00:00.000Z",
-    "day": 41,
-    "wetFoodMorning": "Duck",
-    "wetFoodEvening": "White Fish",
-    "dryTotalGrams": 0,
-    "wetTotalGrams": 200,
-    "notes": "Icarus got into the recylcling bin. Salmon coated foil was ripped apart across the floor. Plastic and things spread around the living room and kitchen. Hannah fed them both in the kitchen, but had to stop Icarus from going to Ezio's food bowl. Hannah is giving Ivarus lots of snuggles while waiting for Ezio to finish eating."
   },
   {
     "image": "photos/IMG_20190228_090921-EFFECTS.jpg",
@@ -1400,6 +1400,25 @@
     "notes": "Ezio was slow eating again, kept him away from his brother in the morning. In the evening we fed them early, I sat with Ezio and watched him eat. He seemed distracted by almost everything but didn't step away from the bowl. We were out for most the evening and didn't get to play with them."
   },
   {
+    "dow": "Saturday",
+    "date": "2019-04-06T00:00:00.000Z",
+    "day": 78,
+    "dryFoodMorning": "Dry Chicken",
+    "wetFoodEvening": "Milk",
+    "dryFoodEvening": "Dry Chicken",
+    "dryTotalGrams": 45,
+    "wetTotalGrams": 50,
+    "notes": "Hannah opted to feed both cats a measured amount of dry food. Ezio nommed it down faster then Icarus for once. We tidied up upstairs and let them roam the house while were waking up. Lots of meowing was had. Ezio was basically forcing himself on us for head scritches."
+  },
+  {
+    "dow": "Sunday",
+    "date": "2019-04-07T00:00:00.000Z",
+    "day": 79,
+    "dryFoodMorning": "Dry Chicken",
+    "dryTotalGrams": 22.5,
+    "notes": "Kitties! They woke up in the bedroom around 6am this morning, and jumped over Hannah. We tidied the house and mopped the floor, giving them the run of the place for a bit before keeping them in the front room until we'd finished tidying up."
+  },
+  {
     "dateCode": "2019-04",
     "date": "2019-04-28T00:00:00.000Z",
     "title": "April 2019",
@@ -1425,7 +1444,7 @@
           2,
           1,
           1,
-          2
+          3
         ]
       },
       {
@@ -1449,7 +1468,7 @@
           0,
           1,
           0,
-          1
+          2
         ]
       },
       {

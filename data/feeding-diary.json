@@ -788,7 +788,10 @@
   {
     "dow": "Sunday",
     "date": 43562,
-    "day": 79
+    "day": 79,
+    "dryFoodMorning": "Dry Chicken",
+    "dryTotalGrams": 22.5,
+    "notes": "Kitties! They woke up in the bedroom around 6am this morning, and jumped over Hannah. We tidied the house and mopped the floor, giving them the run of the place for a bit before keeping them in the front room until we'd finished tidying up."
   },
   {
     "dow": "Monday",

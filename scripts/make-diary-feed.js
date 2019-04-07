@@ -10,7 +10,7 @@ async function readJson(file) {
 
 async function makeDiaryFeed (feedingDiary, feedingCharts, photoFeed) {
   report('Making diary-feed.json')
-  feedingDiary = feedingDiary.filter(n => n.wetFoodMorning)
+  feedingDiary = feedingDiary.filter(n => (n.wetFoodMorning || n.dryFoodMorning) && n.notes)
   feedingDiary.forEach(n => {
     n.date = convertGSheetsDate(n.date)
   })

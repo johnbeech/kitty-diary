@@ -43,7 +43,11 @@
         <div class="value dow">Feeding Roundup for {{title}}</div>
         <script>insertFeedingChart({{toJSON feedingChart}})</script>
       </div>
-      {{else if wetFoodMorning}}
+      {{else if image}}
+      <div class="entry">
+        <div class="image"><img src="{{image}}" alt="Kitty Diary Photo: {{date}}" /></div>
+      </div>
+      {{else if notes}}
       <div class="entry">
       <div class="value dow">{{dow}}</div>
       <div class="value date">{{date}}</div>
@@ -55,10 +59,6 @@
       <div class="value dryTotalGrams">{{dryTotalGrams}}</div>
       <div class="value wetTotalGrams">{{wetTotalGrams}}</div>
       <div class="value notes">{{#each notes}}<p>{{this}}</p>{{/each}}</div>
-      </div>
-      {{else if image}}
-      <div class="entry">
-        <div class="image"><img src="{{image}}" alt="Kitty Diary Photo: {{date}}" /></div>
       </div>
       {{/if}}
     {{/each}}
