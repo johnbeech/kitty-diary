@@ -23,21 +23,25 @@ defineFoodColour('Lamb', '#660000', 'white')
 defineFoodColour('Treats', '#FFEEDD', 'black')
 defineFoodColour('default', '#777777', 'white')
 
-function insertFeedingChart({ data, labels }) {
+function insertFeedingChart(feedingDatasets) {
   const chartId = `feedingChart-${feedingCharts.length}`
   document.write(`<canvas id="${chartId}" width="100%"></canvas>`)
   const ctx = document.getElementById(chartId).getContext('2d')
+  const datasets = feedingDatasets.map(d => {
+    return {
+      label: d.label || '# times fed',
+      name: d.name || '',
+      data: d.data || [],
+      backgroundColor: d.labels.map(l => (foodColours[l.toLowerCase()] || foodColours.default).background),
+      borderColor: d.labels.map(l => 'black'),
+      borderWidth: 2
+    }
+  })
   const chart = new Chart(ctx, {
     type: 'doughnut',
     data: {
-      labels,
-      datasets: [{
-        label: '# times fed',
-        data,
-        backgroundColor: labels.map(l => (foodColours[l.toLowerCase()] || foodColours.default).background),
-        borderColor: labels.map(l => 'black'),
-        borderWidth: 2
-      }]
+      labels: feedingDatasets[0].labels,
+      datasets
     },
     options: {
       aspectRatio: 1.5,
@@ -45,12 +49,23 @@ function insertFeedingChart({ data, labels }) {
         padding: 15
       },
       legend: {
-        display: false
+        display: true
+      },
+      tooltips: {
+        callbacks: {
+          label: (tti, data) => {
+            const dataset = data.datasets[tti.datasetIndex]
+            console.log('?', tti, data)
+            const value = dataset.data[tti.index]
+            const label = data.labels[tti.index]
+            return `${dataset.name} : ${label} ${value}`
+          }
+        }
       },
       plugins: {
         labels: {
           // render 'label', 'value', 'percentage', 'image' or custom function, default is 'percentage'
-          render: (d) => `${d.label} : ${d.value}`,
+          render: (d) => `${d.value}`,
           // precision for percentage, default is 0
           precision: 0,
           // position to draw label, available value is 'default', 'border' and 'outside'
