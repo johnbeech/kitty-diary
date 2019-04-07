@@ -15,6 +15,8 @@ function recordType(counts, foodType, timeType) {
   if (foodType) {
     report('Counting', foodType, timeType)
     counts.total[foodType] = (counts.total[foodType] || 0) + 1
+    counts.am[foodType] = (counts.am[foodType] || 0)
+    counts.pm[foodType] = (counts.pm[foodType] || 0)
     counts[timeType][foodType] = (counts[timeType][foodType] || 0) + 1
   }
 }
@@ -36,6 +38,7 @@ function makeFeedingChart(feedingEntries) {
     const totals = counts[t]
     return {
       label: `# times fed ${t}`,
+      name: t,
       labels:  Object.keys(totals),
       data: Object.keys(totals).map(n => totals[n])
     }

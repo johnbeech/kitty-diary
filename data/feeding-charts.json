@@ -6,6 +6,7 @@
     "feedingChart": [
       {
         "label": "# times fed total",
+        "name": "total",
         "labels": [
           "Shelter Food",
           "Duck",
@@ -39,50 +40,66 @@
       },
       {
         "label": "# times fed am",
+        "name": "am",
         "labels": [
           "Shelter Food",
+          "Duck",
           "Chicken",
+          "Turkey",
+          "Tuna",
           "Salmon",
-          "Turkey",
-          "Coley",
-          "Duck",
-          "Tuna",
-          "Poultry"
-        ],
-        "data": [
-          1,
-          3,
-          1,
-          2,
-          2,
-          1,
-          2,
-          1
-        ]
-      },
-      {
-        "label": "# times fed pm",
-        "labels": [
-          "Duck",
-          "Turkey",
-          "Tuna",
           "Poultry",
           "White Fish",
-          "Salmon",
+          "Coley",
           "Shortbread",
-          "Chicken",
           "Treats",
           "Beef",
           "Lamb"
         ],
         "data": [
           1,
+          1,
+          3,
+          2,
+          2,
+          1,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "label": "# times fed pm",
+        "name": "pm",
+        "labels": [
+          "Shelter Food",
+          "Duck",
+          "Chicken",
+          "Turkey",
+          "Tuna",
+          "Salmon",
+          "Poultry",
+          "White Fish",
+          "Coley",
+          "Shortbread",
+          "Treats",
+          "Beef",
+          "Lamb"
+        ],
+        "data": [
+          0,
+          1,
+          1,
+          2,
           2,
           2,
           1,
           2,
-          2,
-          1,
+          0,
           1,
           1,
           1,
@@ -98,6 +115,7 @@
     "feedingChart": [
       {
         "label": "# times fed total",
+        "name": "total",
         "labels": [
           "Coley",
           "Poultry",
@@ -127,53 +145,61 @@
       },
       {
         "label": "# times fed am",
+        "name": "am",
         "labels": [
           "Coley",
+          "Poultry",
           "Chicken",
-          "Turkey",
-          "Tuna",
-          "Salmon",
-          "Duck",
-          "Beef",
-          "Poultry",
-          "White Fish"
-        ],
-        "data": [
-          4,
-          6,
-          2,
-          3,
-          2,
-          6,
-          1,
-          3,
-          1
-        ]
-      },
-      {
-        "label": "# times fed pm",
-        "labels": [
-          "Poultry",
           "Lamb",
           "White Fish",
-          "Salmon",
-          "Beef",
-          "Coley",
-          "Chicken",
           "Turkey",
           "Tuna",
+          "Salmon",
+          "Beef",
+          "Duck",
           "Treats"
         ],
         "data": [
           4,
           3,
-          5,
-          4,
+          6,
+          0,
           1,
+          2,
+          3,
+          2,
+          1,
+          6,
+          0
+        ]
+      },
+      {
+        "label": "# times fed pm",
+        "name": "pm",
+        "labels": [
+          "Coley",
+          "Poultry",
+          "Chicken",
+          "Lamb",
+          "White Fish",
+          "Turkey",
+          "Tuna",
+          "Salmon",
+          "Beef",
+          "Duck",
+          "Treats"
+        ],
+        "data": [
           3,
           4,
+          4,
+          3,
+          5,
           2,
           2,
+          4,
+          1,
+          0,
           1
         ]
       }
@@ -186,6 +212,7 @@
     "feedingChart": [
       {
         "label": "# times fed total",
+        "name": "total",
         "labels": [
           "Duck",
           "Chicken",
@@ -217,54 +244,66 @@
       },
       {
         "label": "# times fed am",
+        "name": "am",
         "labels": [
           "Duck",
+          "Chicken",
           "White Fish",
+          "Turkey",
           "Coley",
           "Poultry",
-          "Chicken",
-          "Turkey",
+          "Dry Chicken",
           "Salmon",
+          "Treats",
           "Tuna",
+          "Lamb",
           "Beef"
         ],
         "data": [
           1,
+          1,
           3,
+          2,
           5,
           8,
-          1,
-          2,
+          0,
           4,
+          0,
           4,
+          0,
           3
         ]
       },
       {
         "label": "# times fed pm",
+        "name": "pm",
         "labels": [
-          "Chicken",
-          "Turkey",
           "Duck",
+          "Chicken",
           "White Fish",
+          "Turkey",
           "Coley",
+          "Poultry",
           "Dry Chicken",
           "Salmon",
           "Treats",
-          "Poultry",
-          "Lamb"
+          "Tuna",
+          "Lamb",
+          "Beef"
         ],
         "data": [
+          5,
           8,
-          5,
-          5,
           3,
+          5,
           4,
+          1,
           2,
           2,
           1,
-          1,
-          3
+          0,
+          3,
+          0
         ]
       }
     ]
@@ -276,43 +315,72 @@
     "feedingChart": [
       {
         "label": "# times fed total",
+        "name": "total",
         "labels": [
           "Chicken",
           "Salmon",
           "White Fish",
           "Turkey",
-          "Poultry"
+          "Poultry",
+          "Tuna",
+          "Milk",
+          "Dry Chicken"
         ],
         "data": [
+          3,
+          2,
+          1,
           1,
           2,
           1,
           1,
-          1
+          2
         ]
       },
       {
         "label": "# times fed am",
+        "name": "am",
         "labels": [
           "Chicken",
+          "Salmon",
           "White Fish",
-          "Salmon"
+          "Turkey",
+          "Poultry",
+          "Tuna",
+          "Milk",
+          "Dry Chicken"
         ],
         "data": [
+          2,
           1,
           1,
+          0,
+          0,
+          1,
+          0,
           1
         ]
       },
       {
         "label": "# times fed pm",
+        "name": "pm",
         "labels": [
+          "Chicken",
           "Salmon",
+          "White Fish",
           "Turkey",
-          "Poultry"
+          "Poultry",
+          "Tuna",
+          "Milk",
+          "Dry Chicken"
         ],
         "data": [
           1,
+          1,
+          0,
+          1,
+          2,
+          0,
           1,
           1
         ]
