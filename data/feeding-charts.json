@@ -324,17 +324,23 @@
           "Poultry",
           "Tuna",
           "Milk",
-          "Dry Chicken"
+          "Dry Chicken",
+          "Duck",
+          "Dry Tuna",
+          "Coley"
         ],
         "data": [
+          6,
+          6,
           3,
-          2,
+          3,
+          7,
+          3,
           1,
-          1,
-          2,
-          1,
-          1,
-          3
+          28,
+          9,
+          20,
+          5
         ]
       },
       {
@@ -348,17 +354,23 @@
           "Poultry",
           "Tuna",
           "Milk",
-          "Dry Chicken"
+          "Dry Chicken",
+          "Duck",
+          "Dry Tuna",
+          "Coley"
         ],
         "data": [
-          2,
-          1,
-          1,
+          4,
+          4,
+          3,
           0,
-          0,
           1,
+          3,
           0,
-          2
+          13,
+          4,
+          10,
+          3
         ]
       },
       {
@@ -372,16 +384,95 @@
           "Poultry",
           "Tuna",
           "Milk",
-          "Dry Chicken"
+          "Dry Chicken",
+          "Duck",
+          "Dry Tuna",
+          "Coley"
         ],
         "data": [
+          2,
+          2,
+          0,
+          3,
+          6,
+          0,
           1,
+          15,
+          5,
+          10,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "dateCode": "2019-05",
+    "date": "2019-05-28T00:00:00.000Z",
+    "title": "May 2019",
+    "feedingChart": [
+      {
+        "label": "# times fed total",
+        "name": "total",
+        "labels": [
+          "Dry Chicken",
+          "Dry Tuna",
+          "Milk",
+          "Turkey",
+          "White Fish",
+          "Chicken",
+          "Coley"
+        ],
+        "data": [
+          16,
+          18,
+          2,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "label": "# times fed am",
+        "name": "am",
+        "labels": [
+          "Dry Chicken",
+          "Dry Tuna",
+          "Milk",
+          "Turkey",
+          "White Fish",
+          "Chicken",
+          "Coley"
+        ],
+        "data": [
+          14,
+          3,
+          0,
           1,
           0,
           1,
+          0
+        ]
+      },
+      {
+        "label": "# times fed pm",
+        "name": "pm",
+        "labels": [
+          "Dry Chicken",
+          "Dry Tuna",
+          "Milk",
+          "Turkey",
+          "White Fish",
+          "Chicken",
+          "Coley"
+        ],
+        "data": [
+          2,
+          15,
           2,
           0,
           1,
+          0,
           1
         ]
       }
