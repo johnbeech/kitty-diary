@@ -420,12 +420,16 @@
           "Turkey",
           "White Fish",
           "Chicken",
-          "Coley"
+          "Coley",
+          "Dry  Chicken",
+          "Dry Duck"
         ],
         "data": [
-          16,
-          18,
+          28,
+          32,
           2,
+          1,
+          1,
           1,
           1,
           1,
@@ -442,16 +446,20 @@
           "Turkey",
           "White Fish",
           "Chicken",
-          "Coley"
+          "Coley",
+          "Dry  Chicken",
+          "Dry Duck"
         ],
         "data": [
-          14,
-          3,
+          17,
+          13,
           0,
           1,
           0,
           1,
-          0
+          0,
+          0,
+          1
         ]
       },
       {
@@ -464,16 +472,106 @@
           "Turkey",
           "White Fish",
           "Chicken",
-          "Coley"
+          "Coley",
+          "Dry  Chicken",
+          "Dry Duck"
         ],
         "data": [
-          2,
-          15,
+          11,
+          19,
           2,
           0,
           1,
           0,
-          1
+          1,
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "dateCode": "2019-06",
+    "date": "2019-06-28T00:00:00.000Z",
+    "title": "June 2019",
+    "feedingChart": [
+      {
+        "label": "# times fed total",
+        "name": "total",
+        "labels": [
+          "Dry Duck",
+          "Dry Tuna"
+        ],
+        "data": [
+          32,
+          28
+        ]
+      },
+      {
+        "label": "# times fed am",
+        "name": "am",
+        "labels": [
+          "Dry Duck",
+          "Dry Tuna"
+        ],
+        "data": [
+          14,
+          16
+        ]
+      },
+      {
+        "label": "# times fed pm",
+        "name": "pm",
+        "labels": [
+          "Dry Duck",
+          "Dry Tuna"
+        ],
+        "data": [
+          18,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "dateCode": "2019-07",
+    "date": "2019-07-28T00:00:00.000Z",
+    "title": "July 2019",
+    "feedingChart": [
+      {
+        "label": "# times fed total",
+        "name": "total",
+        "labels": [
+          "Dry Tuna",
+          "Dry Duck"
+        ],
+        "data": [
+          8,
+          6
+        ]
+      },
+      {
+        "label": "# times fed am",
+        "name": "am",
+        "labels": [
+          "Dry Tuna",
+          "Dry Duck"
+        ],
+        "data": [
+          7,
+          0
+        ]
+      },
+      {
+        "label": "# times fed pm",
+        "name": "pm",
+        "labels": [
+          "Dry Tuna",
+          "Dry Duck"
+        ],
+        "data": [
+          1,
+          6
         ]
       }
     ]

@@ -1216,156 +1216,495 @@
   {
     "dow": "Saturday",
     "date": 43603,
-    "day": 120
+    "day": 120,
+    "dryFoodMorning": "Dry Chicken",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. We spent the day cooking and cleaning, which meant the cats got lots of attention."
   },
   {
     "dow": "Sunday",
     "date": 43604,
-    "day": 121
+    "day": 121,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "On Sunday, the weather seemed good outside. Dry, not too sunny or hot. We made the decision to let them venture out into the garden for about an hour. They tentatively wandered out through the kitchen door into the grassy garden out back. After dissapearing through to the back, across the threshold of the compost heap, we left them to it, while I went out to wash the car. After about 45 minutes Ezio came back. We let him wander the upstairs while waiting for Icarus to return. Icarus returned about 15 minutes later covered in dust. Where he found dust outside we're not sure."
   },
   {
     "dow": "Monday",
     "date": 43605,
-    "day": 122
+    "day": 122,
+    "dryFoodMorning": "Dry Chicken",
+    "dryFoodEvening": "Dry  Chicken",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. Started feeding the kitties dried fish from iceland in small chunks."
   },
   {
     "dow": "Tuesday",
     "date": 43606,
-    "day": 123
+    "day": 123,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Chicken",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. Icarus and Ezio crunched down their food without much issue. Ezio is the faster eater."
   },
   {
     "dow": "Wednesday",
     "date": 43607,
-    "day": 124
+    "day": 124,
+    "dryFoodMorning": "Dry Chicken",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. Managed to clean out the kitchen and tidy away some of the fluff that had been collecting. Kitties got lots of hugs and cuddles later while we curled up infront of the TV."
   },
   {
     "dow": "Thursday",
     "date": 43608,
-    "day": 125
+    "day": 125,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Chicken",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much, Icarus was having a good stretch on the cat tower. While I was cleaning the front room they seemed a little bit spooked by the vacuum as I approached."
   },
   {
     "dow": "Friday",
     "date": 43609,
-    "day": 126
+    "day": 126,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Chicken",
+    "dryTotalGrams": 90,
+    "notes": "Had friends over to play board games. The cats were very well behaved and didn't seemed scared at all with the visitors. Gave them ( the cats ) the option of wandering upstairs while we played. The cats themselves were quite happy by our feat, and Ezio jumped up on my lap mid game for hugs, but neither tried to get onto the table at any point."
   },
   {
     "dow": "Saturday",
     "date": 43610,
-    "day": 127
+    "day": 127,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Chicken",
+    "dryTotalGrams": 90,
+    "notes": "We stayed in the house most the day, giving the cats the run of the house in the morning. There were morning nuzzles after letting them upstairs."
   },
   {
     "dow": "Sunday",
     "date": 43611,
-    "day": 128
+    "day": 128,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Chicken",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. Right now they're curled up alongside us snoring away. They had a busy morning running around the house."
   },
   {
     "dow": "Monday",
     "date": 43612,
-    "day": 129
+    "day": 129,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Chicken",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much."
   },
   {
     "dow": "Tuesday",
     "date": 43613,
-    "day": 130
+    "day": 130,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Chicken",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much."
   },
   {
     "dow": "Wednesday",
     "date": 43614,
-    "day": 131
+    "day": 131,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Chicken",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. Warm and humid, lots of meowing."
   },
   {
     "dow": "Thursday",
     "date": 43615,
-    "day": 132
+    "day": 132,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Chicken",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. Some fighting, running around."
   },
   {
     "dow": "Friday",
     "date": 43616,
-    "day": 133
+    "day": 133,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. Watched the kitties play hide and seek with each other. They both assummed semi-hidden pouncing positions from each other, and then lept out as the other cat walked by."
   },
   {
     "dow": "Saturday",
     "date": 43617,
-    "day": 134
+    "day": 134,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. We asked our friends to pop over and feed the kitties while we were on a day trip to a boardgames expo. Their food was measured out in advanced, and put into bowls. Water needed refilling, its been warm and humid."
   },
   {
     "dow": "Sunday",
     "date": 43618,
-    "day": 135
+    "day": 135,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much."
   },
   {
     "dow": "Monday",
     "date": 43619,
-    "day": 136
+    "day": 136,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. Found some foamy vomit on the floor."
   },
   {
     "dow": "Tuesday",
     "date": 43620,
-    "day": 137
+    "day": 137,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. Some play fighting while prepping food, both morning and evening. They sit opposite each other and make swipes at each other's faces, before getting distracted by food again. They've been playing a lot lately, but also coming in for hugs and head pats while we're sat on the sofa watching TV."
   },
   {
     "dow": "Wednesday",
     "date": 43621,
-    "day": 138
+    "day": 138,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We found some cat vommit on the floor in the morning. There was a big slug like thing which turned out to be a hair ball of Icarus fur. Perhaps he was struggling to throw this up on Monday."
   },
   {
     "dow": "Thursday",
     "date": 43622,
-    "day": 139
+    "day": 139,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. Fed them at the normal times, and headed for town. We were back late from the cinema, gave them some attention before going to bed."
   },
   {
     "dow": "Friday",
     "date": 43623,
-    "day": 140
+    "day": 140,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. Just me in the house with the cats, spent time sat with them cuddling up to them."
   },
   {
     "dow": "Saturday",
     "date": 43624,
-    "day": 141
+    "day": 141,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 115,
+    "notes": "Caught the train down to Wales to meet Hannah, so fed the cats extra in the morning, then drove back home the same day, and fed them the usual amount in the evening."
   },
   {
     "dow": "Sunday",
     "date": 43625,
-    "day": 142
+    "day": 142,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. They're adorable and Hannah loves them."
   },
   {
     "dow": "Monday",
     "date": 43626,
-    "day": 143
+    "day": 143,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. They're adorable and Hannah loves them."
   },
   {
     "dow": "Tuesday",
     "date": 43627,
-    "day": 144
+    "day": 144,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. They're adorable and Hannah loves them."
   },
   {
     "dow": "Wednesday",
     "date": 43628,
-    "day": 145
+    "day": 145,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "Hannah thinks they're starting to learn their own names, responding to them be called."
   },
   {
     "dow": "Thursday",
     "date": 43629,
-    "day": 146
+    "day": 146,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We got home late, and fed them late, but they were still adorable and Hannah loves them."
   },
   {
     "dow": "Friday",
     "date": 43630,
-    "day": 147
+    "day": 147,
+    "dryFoodMorning": "Dry Duck",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "Hannah thinks that they don't care about their names at all."
   },
   {
     "dow": "Saturday",
     "date": 43631,
-    "day": 148
+    "day": 148,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "Ezio, is being nuzzly as always. Icarus has had fun hunting for food"
   },
   {
     "dow": "Sunday",
     "date": 43632,
-    "day": 149
+    "day": 149,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "The cats got me two wonderful Father's day cards today. Icarus joked about barfing his fluff over the floor. Ezio called me his skin dad. Ew. Still haven't figured out how they're able to order things off the internet. They've been eating their food no problems."
   },
   {
     "dow": "Monday",
     "date": 43633,
-    "day": 150
+    "day": 150,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "Poop, cleaned out, opened back window. After eating, found Ezio wigglebutt.exe next to kitchen window - a magpie was dancing around the fence and the roof of the next house - I assume doing some sort of mating or territorial display. Ezio was quite entranced."
+  },
+  {
+    "dow": "Tuesday",
+    "date": 43634,
+    "day": 151,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "We"
+  },
+  {
+    "dow": "Wednesday",
+    "date": 43635,
+    "day": 152,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "Love"
+  },
+  {
+    "dow": "Thursday",
+    "date": 43636,
+    "day": 153,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "The"
+  },
+  {
+    "dow": "Friday",
+    "date": 43637,
+    "day": 154,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "Kitties"
+  },
+  {
+    "dow": "Saturday",
+    "date": 43638,
+    "day": 155,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "Very"
+  },
+  {
+    "dow": "Sunday",
+    "date": 43639,
+    "day": 156,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "Much"
+  },
+  {
+    "dow": "Monday",
+    "date": 43640,
+    "day": 157,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "We"
+  },
+  {
+    "dow": "Tuesday",
+    "date": 43641,
+    "day": 158,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "Love"
+  },
+  {
+    "dow": "Wednesday",
+    "date": 43642,
+    "day": 159,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "The"
+  },
+  {
+    "dow": "Thursday",
+    "date": 43643,
+    "day": 160,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "Kitties... very much. No problem with either Ezio or Icarus. They're still play fighting once I start preparing the food. We've been giving them lots of attention in the evenings. They ate their food ok, they seem to have settled on eating the dry food quickly without issue. Pooping normally. This batch of litter seems a bit drier and powdery, might be due to the warmth and humidity at the moment."
+  },
+  {
+    "dow": "Friday",
+    "date": 43644,
+    "day": 161,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "Meow. Meow. Meow. Meow. Meow. Meow. Meow. Meow. Meow. Meow."
+  },
+  {
+    "dow": "Saturday",
+    "date": 43645,
+    "day": 162,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "Let the cats out for 10 minutes. Hannah got a bit nervous when Icarus headed around the side of the house. She went out front and found him near the road. She tempted him back in with snacks and picked him up. Ezio got as far as the compost heap and ran in when he heard Hannah come back through."
+  },
+  {
+    "dow": "Sunday",
+    "date": 43646,
+    "day": 163,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much."
+  },
+  {
+    "dow": "Monday",
+    "date": 43647,
+    "day": 164,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much."
+  },
+  {
+    "dow": "Tuesday",
+    "date": 43648,
+    "day": 165,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "Had a visit from my parents; cats were fine with the attention. They sniffed around while my parents were eating food. We made good progress on the front garden; pulling up weeds and cutting back the overgrown plants to the side of the garden."
+  },
+  {
+    "dow": "Wednesday",
+    "date": 43649,
+    "day": 166,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much."
+  },
+  {
+    "dow": "Thursday",
+    "date": 43650,
+    "day": 167,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much."
+  },
+  {
+    "dow": "Friday",
+    "date": 43651,
+    "day": 168,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much."
+  },
+  {
+    "dow": "Saturday",
+    "date": 43652,
+    "day": 169,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Duck",
+    "dryTotalGrams": 90,
+    "notes": "Finished the bag of Duck; bought in some new flavours of dry food to try out. Keeping the portions the same. Hannah things they are adorable and fluffy; sometimes too fluffy. We fed them early yesterday before heading out for the evening."
+  },
+  {
+    "dow": "Sunday",
+    "date": 43653,
+    "day": 170,
+    "dryFoodMorning": "Dry Tuna",
+    "dryFoodEvening": "Dry Tuna",
+    "dryTotalGrams": 90,
+    "notes": "We love the kitties very much. Fed them tuna twice instead of opening a new pack. Mowed the lawn at the back. Hannah found a crying cat at the rear and tried to feed it some snacks. It darted to te compost heap and waited tentatively. Our cats both tripped over each other trying to get to the window to take a look. "
+  },
+  {
+    "dow": "Monday",
+    "date": 43654,
+    "day": 171
+  },
+  {
+    "dow": "Tuesday",
+    "date": 43655,
+    "day": 172
+  },
+  {
+    "dow": "Wednesday",
+    "date": 43656,
+    "day": 173
+  },
+  {
+    "dow": "Thursday",
+    "date": 43657,
+    "day": 174
+  },
+  {
+    "dow": "Friday",
+    "date": 43658,
+    "day": 175
+  },
+  {
+    "dow": "Saturday",
+    "date": 43659,
+    "day": 176
+  },
+  {
+    "dow": "Sunday",
+    "date": 43660,
+    "day": 177
   }
 ]
