@@ -37,7 +37,7 @@
   "dependencies": {
     "ftp-deploy": "^2.3.1",
     "google-spreadsheet-to-json": "^1.0.0",
-    "handlebars": "^4.3.0",
+    "handlebars": "^4.4.5",
     "promise-path": "^1.4.0"
   }
 }
